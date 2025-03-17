@@ -12,30 +12,29 @@ Nesse contexto, muitas pessoas enfrentam dificuldades para gerenciar suas dietas
 
 Muitas pessoas enfrentam dificuldades na gestão diária de suas dietas devido à falta de tempo, organização e conhecimento sobre nutrição. Além disso, a complexidade dos planos alimentares, o uso de termos técnicos por profissionais e a indisponibilidade de ingredientes dificultam a adesão e a obtenção de resultados eficazes. É necessário desenvolver uma solução que torne o planejamento alimentar mais acessível, prático e eficiente.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Objetivo geral: Facilitar a gestão alimentar de iniciantes em dietas, proporcionando maior eficiência e autonomia para otimizar resultados sem a necessidade de acompanhamento contínuo de um profissional.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Objetivo específico:
+•	Gerenciar estoques particular de alimentos utilizados na dieta.
+•	Calcular a quantidade diária de carboidratos, proteínas e gorduras da dieta.
+•	Conhecer alimentos restritivos associados a dieta do usuário.
+•	Gerenciar lista de compras para abastecimento do estoque.
+•	Monitorar peso por meio do cálculo de IMC (índice de Massa Corporal).
+•	Organizar agenda semanal de refeições descritos na dieta (café, almoço, jantar).
+•	Conhecer receitas compatíveis com a dieta utilizada visando trocas ou adaptação alimentares.
+
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A adoção de uma alimentação equilibrada é essencial para a promoção da saúde e do bem-estar, porém, fazer uma dieta pode ser um desafio. Muitas pessoas que iniciam uma dieta enfrentam dificuldades na gestão eficiente de sua alimentação, seja pela falta de conhecimento, pela dificuldade de planejamento ou pela ausência de ferramentas adequadas para monitorar o seu progresso.
 
-Lembre-se de pesquisar e utilizar números que justifiquem por que é importante que tal problema seja resolvido ou que mostrem o impacto do problema na vida das pessoas.
+Estudos indicam que a tecnologia tem se apresentado como uma aliada importante nesse processo, oferecendo aplicativos, plataformas e ferramentas que auxiliam no planejamento alimentar, no controle de calorias e na adaptação de dietas personalizadas. Sendo assim, este projeto busca oferecer soluções para o gerenciamento de dietas de maneira eficiente.
+Dessa forma, a aplicação proposta se justifica pela necessidade de oferecer soluções práticas e acessíveis para aqueles que desejam iniciar e manter uma dieta de maneira autônoma.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
