@@ -1,20 +1,16 @@
 # Introdução
 
-Imagine que você deseja apresentar este projeto para investidores que deverão decidir se investem ou não no desenvolvimento da sua ferramenta.
+Atualmente, as pessoas têm se preocupado bastante com a saúde e o bem-estar e, geralmente, procuram selecionar melhor os alimentos para levar uma vida mais saudável. Para obter melhores resultados na manutenção da saúde e no controle do peso, muitas recorrem a um nutricionista para elaborar uma dieta eficiente. Porém, na sociedade atual, a rotina agitada, com trabalho, família e outros compromissos, faz com que muitas pessoas não queiram se sentir sobrecarregadas com dietas complexas ou tenham dificuldade em segui-las por falta de tempo. Dessa forma, elas buscam praticidade em sua jornada de perda de peso e melhoria da saúde.  
 
-A **Introdução** consiste das etapas: *Contextualização -- Definição do problema -- Definição dos Objetivos -- Justificativa*, e tem como função situar o seu trabalho dentro de um contexto de mercado e mostrar a importância da sua proposta para resolver a dor de um usuário.
+Nesse contexto, muitas pessoas enfrentam dificuldades para gerenciar suas dietas alimentares, seja por falta de tempo ou desconhecimento. Pode ser uma solução eficiente para auxiliar na gestão das dietas o uso de uma aplicação web que converta as dietas em alimentos específicos, sugerindo um cardápio com refeições simplificadas e adequadas à realidade de cada indivíduo, conforme os dados fornecidos pelo próprio usuário, aplicação esta objeto deste projeto.
 
-A Contextualização deve situar sem projeto em um determinado contexto de mercado, a fim de fornecer informações adicionais que possam ajudar a entender melhor o assunto que você irá abordar. Serve também para definir a relevância do seu assunto, uma vez que mostra o tamanho do mercado em que se está inserido. Ela pode envolver a análise de vários aspectos, como o ambiente histórico, cultural, político e social em que o problema a ser atacado surgiu.
 
-Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
+* contextatualização : PESQUISA (inserir um dado de pesquisa) - dificuldade nas dietas, sobre obesidade (mundo), ozempic (quantas passaram usar?)
+
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, **não** é a hora de comentar sobre a solução/aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+Muitas pessoas enfrentam dificuldades na gestão diária de suas dietas devido à falta de tempo, organização e conhecimento sobre nutrição. Além disso, a complexidade dos planos alimentares, o uso de termos técnicos por profissionais e a indisponibilidade de ingredientes dificultam a adesão e a obtenção de resultados eficazes. É necessário desenvolver uma solução que torne o planejamento alimentar mais acessível, prático e eficiente.
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
