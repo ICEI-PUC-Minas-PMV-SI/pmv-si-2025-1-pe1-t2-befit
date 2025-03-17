@@ -8,71 +8,30 @@ Caso deseje atribuir uma imagem a sua persona, utilize o site https://thisperson
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Patrícia tem 26 anos, ganha entre R$ 2 mil e R$ 3 mil e trabalha como assistente comercial em uma empresa de médio porte em Belo Horizonte. Adora o estilo de vida saudável, vai a academia três vezes por semana. Ela está acima do peso, já tentou emagrecer com uma dieta, mas sem sucesso, e agora se sente desmotivada por não ter alcançado os resultados esperados na dieta que fez, por falta de conhecimento e por falta de tempo para gerir uma dieta de forma eficaz.
+Não está namorando, não possui filhos e suas redes sociais favoritas são o Facebook e o Instagram, e é nessas redes sociais que ela consegue informações úteis sobre um estilo de vida saudável, boa alimentação e atividades físicas para queimar calorias. Gosta de viajar ir a barzinhos aos fins de semana com suas amigas.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
-
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
-
-## Requisitos
-
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+Pedro, como alguém que está acima do peso e não tem muito tempo para organizar uma dieta, quer um site que ofereça planos de refeições saudáveis, rápidos e personalizados, para que possa melhorar sua saúde, perder peso de forma sustentável e se alimentar melhor sem gastar muito tempo planejando.
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade | 
-|------|-----------------------------------------|----| 
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | ALTA |  
-|RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês   | MÉDIA | 
-
+•	Permitir cadastro de preferências alimentares (ex: vegetariano, low carb, sem glúten, etc.).
+•	Oferecer opções de refeições organizadas por complexidade levando em conta o tempo e preparo.
+•	Sugerir lista de compras automáticas com base no plano de refeições escolhido.
+•	Fornecer informações nutricionais claras das refeições (calorias, proteínas, carboidratos, etc.).
+•	Disponibilizar ferramenta para monitoramento do peso por meio do cálculo de IMC (índice de Massa Corporal).
+•	Oferecer ferramenta para calcular a quantidade de carboidratos, proteínas e gorduras da dieta.
+•	Disponibilizar agenda semanal para organização das refeições descritos na dieta (café, almoço, jantar).
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| A aplicação deve ser responsiva | MÉDIA | 
-|RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+•	O sistema deve ser multiplataforma. (celular e computador)
+•	A interface deve ser simples e intuitiva
+•	O desenvolvimento deve ser em Javascript; HTML e CSS.
+•	O sistema deve funcionar on-line.
 
 ## Restrições
 
