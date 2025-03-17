@@ -1,4 +1,4 @@
-# Título do Projeto
+# BEFIT 
 
 `CURSO: Sistemas de Informação`
 
@@ -10,11 +10,14 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Larissa Figueirêdo Belo
-* Weder Hovadich Gonçalves
-* Maíra Francesca Campelo Reis
-* Marinna Pereira Barcellos 
-* Lucas 
+* Julianna Bonaparte Lessa 
+*	Larissa Figueirêdo Belo
+*	Lucas Vitor da Silva Teles
+*	Maira Francesca Campelo Reis
+*	Marinna Pereira Barcellos
+*	Weder Hovadich Gonçalves
+
+* 
 
 
 ## Orientador
