@@ -17,12 +17,12 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 *	Marinna Pereira Barcellos
 *	Weder Hovadich Gonçalves
 
-* 
+
 
 
 ## Orientador
 
-* Nome completo do professor 1
+* Marco Rodrigo Costa
 
 # Planejamento
 
