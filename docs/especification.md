@@ -28,15 +28,13 @@ Pedro, como alguém que está acima do peso e não tem muito tempo para organiza
 
 ### Requisitos não Funcionais
 
-| ID  |       DESCRIÇÃO DO REQUISITO | PRIORIDADE |
-| --  | ---------------------------- |----------- |
-| Con | Content Cell                 |Content     |
-| Con | Content Cell                 |Content     |
+| ID  |       DESCRIÇÃO DO REQUISITO                               | PRIORIDADE |
+| --  | ---------------------------------------------------------- |----------- |
+| Con | O sistema deve ser multiplataforma. (celular e computador) |Content     |
+| Con | A interface deve ser simples e intuitiva                   |Content     |
+| Con | O desenvolvimento deve ser em Javascript; HTML e CSS.      |Content     |
+| Con | O sistema deve funcionar on-line.                          |Content     |
 
-•	O sistema deve ser multiplataforma. (celular e computador)
-•	A interface deve ser simples e intuitiva
-•	O desenvolvimento deve ser em Javascript; HTML e CSS.
-•	O sistema deve funcionar on-line.
 
 ## Restrições
 
