@@ -15,7 +15,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 *	Lucas Vitor da Silva Teles
 *	Maira Francesca Campelo Reis
 *	Marinna Pereira Barcellos
-*	Weder Hovadich Gonçalves
+*	Weder Hovadich Gonçalves.
 
 
 
