@@ -18,13 +18,13 @@ Muitas pessoas enfrentam dificuldades na gestão diária de suas dietas devido �
 Objetivo geral: Facilitar a gestão alimentar de iniciantes em dietas, proporcionando maior eficiência e autonomia para otimizar resultados sem a necessidade de acompanhamento contínuo de um profissional.
 
 Objetivo específico:
-•	Gerenciar estoques particular de alimentos utilizados na dieta.
-•	Calcular a quantidade diária de carboidratos, proteínas e gorduras da dieta.
-•	Conhecer alimentos restritivos associados a dieta do usuário.
-•	Gerenciar lista de compras para abastecimento do estoque.
-•	Monitorar peso por meio do cálculo de IMC (índice de Massa Corporal).
-•	Organizar agenda semanal de refeições descritos na dieta (café, almoço, jantar).
-•	Conhecer receitas compatíveis com a dieta utilizada visando trocas ou adaptação alimentares.
+-	Gerenciar estoques particular de alimentos utilizados na dieta.
+-	Calcular a quantidade diária de carboidratos, proteínas e gorduras da dieta.
+-	Conhecer alimentos restritivos associados a dieta do usuário.
+-	Gerenciar lista de compras para abastecimento do estoque.
+-	Monitorar peso por meio do cálculo de IMC (índice de Massa Corporal).
+-	Organizar agenda semanal de refeições descritos na dieta (café, almoço, jantar).
+-	Conhecer receitas compatíveis com a dieta utilizada visando trocas ou adaptação alimentares.
 
 
 ## Justificativa
@@ -37,4 +37,8 @@ Dessa forma, a aplicação proposta se justifica pela necessidade de oferecer so
 
 ## Público-Alvo
 
-Pessoas acima de 18 anos que, por acreditarem muito no estilo de vida saudável, desejam melhorar a alimentação ou fazer uma dieta. Moram em regiões metropolitanas, e não conseguem fazer a gestão da alimentação e controle da dieta, devido à falta de tempo ou desconhecimento.
+A aplicação web projetada se destinará a atender primariamente os seguintes usuários:
+
+- Pessoas acima de 18 anos que, por acreditarem muito no estilo de vida saudável, desejam melhorar a alimentação ou fazer uma dieta. Moram em regiões metropolitanas, e não conseguem fazer a gestão da alimentação e controle da dieta, devido à falta de tempo ou desconhecimento.
+- Atletas e praticantes de atividade física, que precisam ajustar a alimentação para melhorar o desempenho esportivo. Buscam dietas específicas, como alimentação para ganho de massa muscular, e tem interesse em monitoramento de macros e calorias.
+- Pessoas com restrições alimentares, ou com intolerâncias (glúten, lactose) ou alergias alimentares, que buscam personalização de dietas para necessidades específicas, e se Interesse por receitas adaptadas.
