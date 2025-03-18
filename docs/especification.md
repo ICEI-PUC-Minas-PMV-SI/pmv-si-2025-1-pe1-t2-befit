@@ -22,9 +22,9 @@ Pedro, como alguém que está acima do peso e não tem muito tempo para organiza
 ### Requisitos Funcionais
 
 | ID  |       DESCRIÇÃO DO REQUISITO | PRIORIDADE |
-| --  | ---------------------------- |----------- |
-| Con | Content Cell                 |Content     |
-| Con | Content Cell                 |Content     |
+| --  | ---------------------------------------------------------------------------------------------------|----------- |
+| Con | Permitir cadastro de preferências alimentares (ex: vegetariano, low carb, sem glúten, etc.).       |Content     |
+| Con | Oferecer opções de refeições organizadas por complexidade levando em conta o tempo e preparo.      |Content     |
 
 •	Permitir cadastro de preferências alimentares (ex: vegetariano, low carb, sem glúten, etc.).
 •	Oferecer opções de refeições organizadas por complexidade levando em conta o tempo e preparo.
