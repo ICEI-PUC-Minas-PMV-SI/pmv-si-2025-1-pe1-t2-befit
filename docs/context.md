@@ -5,7 +5,7 @@ Atualmente, as pessoas têm se preocupado bastante com a saúde e o bem-estar e,
 Nesse contexto, muitas pessoas enfrentam dificuldades para gerenciar suas dietas alimentares, seja por falta de tempo ou desconhecimento. Pode ser uma solução eficiente para auxiliar na gestão das dietas o uso de uma aplicação web que converta as dietas em alimentos específicos, sugerindo um cardápio com refeições simplificadas e adequadas à realidade de cada indivíduo, conforme os dados fornecidos pelo próprio usuário, aplicação esta objeto deste projeto.
 
 
-* contextatualização : PESQUISA (inserir um dado de pesquisa) - dificuldade nas dietas, sobre obesidade (mundo), ozempic (quantas passaram usar?)
+* contextatualização : PESQUISA (inserir um dado de pesquisa) - dificuldade nas dietas, sobre obesidade (mundo), ozempic (quantas passaram usar?) Link artigo: "https://conferenciasunifoa.emnuvens.com.br/tc/article/download/1944/1567/3912"
 
 
 ## Problema
