@@ -1,11 +1,11 @@
 # Especificações do Projeto
 
-Este projeto tem como objetivo auxiliar pessoas que estão iniciando uma dieta alimentar na gestão eficiente de sua alimentação, permitindo que alcancem melhores resultados sem a necessidade de acompanhamento constante de um profissional. Para isso, serão utilizados técnicas e ferramentas como diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais, além das restrições do projeto.
+Este projeto tem como objetivo desenvolver uma aplicação web, para auxiliar pessoas que estão iniciando uma dieta alimentar na gestão eficiente de sua alimentação, permitindo que alcancem melhores resultados sem a necessidade de acompanhamento constante de um profissional. Para isso, serão utilizados técnicas e ferramentas como diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais, além das restrições do projeto.
 
 ## Personas
 
 Patrícia tem 26 anos, ganha entre R$ 2 mil e R$ 3 mil e trabalha como assistente comercial em uma empresa de médio porte em Belo Horizonte. Adora o estilo de vida saudável, vai a academia três vezes por semana. Ela está acima do peso, já tentou emagrecer com uma dieta, mas sem sucesso, e agora se sente desmotivada por não ter alcançado os resultados esperados na dieta que fez, por falta de conhecimento e por falta de tempo para gerir uma dieta de forma eficaz.
-Não está namorando, não possui filhos e suas redes sociais favoritas são o Facebook e o Instagram, e é nessas redes sociais que ela consegue informações úteis sobre um estilo de vida saudável, boa alimentação e atividades físicas para queimar calorias. Gosta de viajar ir a barzinhos aos fins de semana com suas amigas.
+Não está namorando, não possui filhos e suas redes sociais favoritas são o Facebook e o Instagram, e é nessas redes sociais que ela consegue informações úteis sobre um estilo de vida saudável, boa alimentação e atividades físicas para queimar calorias. Gosta de viajar e ir a barzinhos aos fins de semana com suas amigas.
 
 
 ## Histórias de Usuários
