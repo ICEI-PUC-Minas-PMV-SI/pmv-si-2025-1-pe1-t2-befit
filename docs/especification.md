@@ -33,7 +33,7 @@ Pedro, como alguém que está acima do peso e não tem muito tempo para organiza
 | RNF-001	| O sistema deve ser multiplataforma. (celular e computador) |MÉDIA       |
 | RNF-002 | A interface deve ser simples e intuitiva                   |ALTA        |
 | RNF-003 | O desenvolvimento deve ser em Javascript; HTML e CSS.      |ALTA        |
-| RNF-004 | O sistema deve funcionar on-line.                          |Content     |
+| RNF-004 | O sistema deve funcionar on-line.                          |ALTA        |
 
 
 ## Restrições
