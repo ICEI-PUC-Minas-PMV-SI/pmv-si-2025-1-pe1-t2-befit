@@ -4,16 +4,14 @@ Este projeto tem como objetivo desenvolver uma aplicação web, para auxiliar pe
 
 ## Personas
 
-Patrícia tem 26 anos, ganha entre R$ 2 mil e R$ 3 mil e trabalha como assistente comercial em uma empresa de médio porte em Belo Horizonte. Adora o estilo de vida saudável, vai a academia três vezes por semana. Ela está acima do peso, já tentou emagrecer com uma dieta, mas sem sucesso, e agora se sente desmotivada por não ter alcançado os resultados esperados na dieta que fez, por falta de conhecimento e por falta de tempo para gerir uma dieta de forma eficaz.
-Não está namorando, não possui filhos e suas redes sociais favoritas são o Facebook e o Instagram, e é nessas redes sociais que ela consegue informações úteis sobre um estilo de vida saudável, boa alimentação e atividades físicas para queimar calorias. Gosta de viajar e ir a barzinhos aos fins de semana com suas amigas.
-
-
-| EU COMO PERSONA  | QUERO/PRECISO FUNCIONALIDADE |PARA MOTIVAR/VALOR  |
-| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------- |------------------- |
-| Content Cell---  | Patrícia tem 26 anos, ganha entre R$ 2 mil e R$ 3 mil e trabalha como assistente comercial em uma empresa de médio porte em Belo Horizonte. Adora o estilo de vida saudável, vai a academia três vezes por semana. Ela está acima do peso, já tentou emagrecer com uma dieta, mas sem sucesso, e agora se sente desmotivada por não ter alcançado os resultados esperados na dieta que fez, por falta de conhecimento e por falta de tempo para gerir uma dieta de forma eficaz.
-Não está namorando, não possui filhos e suas redes sociais favoritas são o Facebook e o Instagram, e é nessas redes sociais que ela consegue informações úteis sobre um estilo de vida saudável, boa alimentação e atividades físicas para queimar calorias. Gosta de viajar e ir a barzinhos aos fins de semana com suas amigas.
- |Content Cell        |
-| Content Cell---  | Content Cell                 |Content Cell        |
+| EU COMO PERSONA      | QUERO/PRECISO FUNCIONALIDADE                          | PARA MOTIVAR/VALOR               |
+|----------------------|------------------------------------------------------|----------------------------------|
+| Patrícia, 26 anos, assistente comercial | Encontrar um método eficaz para emagrecer | Para alcançar meus objetivos de peso e saúde |
+| Ganha entre R$ 2 mil e R$ 3 mil | Ter informações acessíveis sobre alimentação saudável e exercícios | Para melhorar meu bem-estar sem perder tempo |
+| Vai à academia 3x por semana | Dicas rápidas e práticas de treino e nutrição | Para encaixar na minha rotina corrida |
+| Se sente desmotivada por não ver resultados | Suporte e acompanhamento na jornada fitness | Para não desistir e manter a motivação |
+| Usa Facebook e Instagram | Conteúdos relevantes sobre estilo de vida saudável | Para aprender de forma fácil e interativa |
+| Gosta de viajar e ir a barzinhos | Equilibrar lazer e hábitos saudáveis | Para curtir sem comprometer minha saúde |
 
 ## Histórias de Usuários
 
