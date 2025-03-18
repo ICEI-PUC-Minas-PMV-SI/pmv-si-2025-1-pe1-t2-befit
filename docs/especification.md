@@ -6,12 +6,8 @@ Este projeto tem como objetivo desenvolver uma aplicação web, para auxiliar pe
 
 | EU COMO PERSONA      | QUERO/PRECISO FUNCIONALIDADE                          | PARA MOTIVAR/VALOR               |
 |----------------------|------------------------------------------------------|----------------------------------|
-| Patrícia, 26 anos, assistente comercial | Encontrar um método eficaz para emagrecer | Para alcançar meus objetivos de peso e saúde |
-| Ganha entre R$ 2 mil e R$ 3 mil | Ter informações acessíveis sobre alimentação saudável e exercícios | Para melhorar meu bem-estar sem perder tempo |
-| Vai à academia 3x por semana | Dicas rápidas e práticas de treino e nutrição | Para encaixar na minha rotina corrida |
-| Se sente desmotivada por não ver resultados | Suporte e acompanhamento na jornada fitness | Para não desistir e manter a motivação |
-| Usa Facebook e Instagram | Conteúdos relevantes sobre estilo de vida saudável | Para aprender de forma fácil e interativa |
-| Gosta de viajar e ir a barzinhos | Equilibrar lazer e hábitos saudáveis | Para curtir sem comprometer minha saúde |
+| Patrícia, 26 anos, assistente comercial, busca um estilo de vida saudável | Ter um método eficaz para emagrecer e melhorar sua alimentação | Para alcançar seus objetivos sem perder tempo e manter a motivação |
+| Usa Facebook e Instagram para buscar informações sobre saúde e bem-estar | Receber conteúdos relevantes e práticos sobre dieta e exercícios | Para aprender de forma fácil e equilibrar sua rotina com lazer |
 
 ## Histórias de Usuários
 
