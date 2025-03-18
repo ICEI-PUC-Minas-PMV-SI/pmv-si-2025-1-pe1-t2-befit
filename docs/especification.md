@@ -14,19 +14,17 @@ Este projeto tem como objetivo desenvolver uma aplicação web, para auxiliar pe
 Pedro, como alguém que está acima do peso e não tem muito tempo para organizar uma dieta, quer um site que ofereça planos de refeições saudáveis, rápidos e personalizados, para que possa melhorar sua saúde, perder peso de forma sustentável e se alimentar melhor sem gastar muito tempo planejando.
 
 ### Requisitos Funcionais
+ 
+| ID  | DESCRIÇÃO DO REQUISITO                                                                                      | PRIORIDADE |
+| --  | ------------------------------------------------------------------------------------------------------------|----------- |
+| Con | Permitir cadastro de preferências alimentares (ex: vegetariano, low carb, sem glúten, etc.).                |Content     |
+| Con | Oferecer opções de refeições organizadas por complexidade levando em conta o tempo e preparo.               |Content     |
+| Con | Sugerir lista de compras automáticas com base no plano de refeições escolhido.                              |Content     |
+| Con | Fornecer informações nutricionais claras das refeições (calorias, proteínas, carboidratos, etc.).           |Content     |
+| Con | Disponibilizar ferramenta para monitoramento do peso por meio do cálculo de IMC (índice de Massa Corporal). |Content     |
+| Con | Oferecer ferramenta para calcular a quantidade de carboidratos, proteínas e gorduras da dieta.              |Content     |
+| Con | Disponibilizar agenda semanal para organização das refeições descritos na dieta (café, almoço, jantar).     |Content     |
 
-| ID  |       DESCRIÇÃO DO REQUISITO | PRIORIDADE |
-| --  | ---------------------------------------------------------------------------------------------------|----------- |
-| Con | Permitir cadastro de preferências alimentares (ex: vegetariano, low carb, sem glúten, etc.).       |Content     |
-| Con | Oferecer opções de refeições organizadas por complexidade levando em conta o tempo e preparo.      |Content     |
-
-•	Permitir cadastro de preferências alimentares (ex: vegetariano, low carb, sem glúten, etc.).
-•	Oferecer opções de refeições organizadas por complexidade levando em conta o tempo e preparo.
-•	Sugerir lista de compras automáticas com base no plano de refeições escolhido.
-•	Fornecer informações nutricionais claras das refeições (calorias, proteínas, carboidratos, etc.).
-•	Disponibilizar ferramenta para monitoramento do peso por meio do cálculo de IMC (índice de Massa Corporal).
-•	Oferecer ferramenta para calcular a quantidade de carboidratos, proteínas e gorduras da dieta.
-•	Disponibilizar agenda semanal para organização das refeições descritos na dieta (café, almoço, jantar).
 
 ### Requisitos não Funcionais
 
