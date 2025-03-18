@@ -15,25 +15,25 @@ Pedro, como alguém que está acima do peso e não tem muito tempo para organiza
 
 ### Requisitos Funcionais
  
-| ID   | DESCRIÇÃO DO REQUISITO                                                                                      | PRIORIDADE |
-| ---- | ------------------------------------------------------------------------------------------------------------|----------- |
-| Con  | Permitir cadastro de preferências alimentares (ex: vegetariano, low carb, sem glúten, etc.).                |Content     |
-| Con  | Oferecer opções de refeições organizadas por complexidade levando em conta o tempo e preparo.               |Content     |
-| Con  | Sugerir lista de compras automáticas com base no plano de refeições escolhido.                              |Content     |
-| Con  | Fornecer informações nutricionais claras das refeições (calorias, proteínas, carboidratos, etc.).           |Content     |
-| Con  | Disponibilizar ferramenta para monitoramento do peso por meio do cálculo de IMC (índice de Massa Corporal). |Content     |
-| Con  | Oferecer ferramenta para calcular a quantidade de carboidratos, proteínas e gorduras da dieta.              |Content     |
-| Con  | Disponibilizar agenda semanal para organização das refeições descritos na dieta (café, almoço, jantar).     |Content     |
+| ID      | DESCRIÇÃO DO REQUISITO                                                                                      | PRIORIDADE |
+| ------- | ------------------------------------------------------------------------------------------------------------|----------- |
+| RF-001  | Permitir cadastro de preferências alimentares (ex: vegetariano, low carb, sem glúten, etc.).                |MÉDIA       |
+| RF-002  | Oferecer opções de refeições organizadas por complexidade levando em conta o tempo e preparo.               |ALTA        |
+| RF-003  | Sugerir lista de compras automáticas com base no plano de refeições escolhido.                              |MÉDIA       |
+| RF-004  | Fornecer informações nutricionais claras das refeições (calorias, proteínas, carboidratos, etc.).           |ALTA        |
+| RF-005  | Disponibilizar ferramenta para monitoramento do peso por meio do cálculo de IMC (índice de Massa Corporal). |MÉDIA       |
+| RF-006  | Oferecer ferramenta para calcular a quantidade de carboidratos, proteínas e gorduras da dieta.              |MÉDIA       |
+| RF-007  | Disponibilizar agenda semanal para organização das refeições descritos na dieta (café, almoço, jantar).     |ALTA        |
 
 
 ### Requisitos não Funcionais
 
-| ID   | DESCRIÇÃO DO REQUISITO                                     | PRIORIDADE |
-| ---- | ---------------------------------------------------------- |----------- |
-| Con  | O sistema deve ser multiplataforma. (celular e computador) |Content     |
-| Con  | A interface deve ser simples e intuitiva                   |Content     |
-| Con  | O desenvolvimento deve ser em Javascript; HTML e CSS.      |Content     |
-| Con  | O sistema deve funcionar on-line.                          |Content     |
+| ID      | DESCRIÇÃO DO REQUISITO                                     | PRIORIDADE |
+| ------- | ---------------------------------------------------------- |----------- |
+| RNF-001	| O sistema deve ser multiplataforma. (celular e computador) |MÉDIA       |
+| RNF-002 | A interface deve ser simples e intuitiva                   |ALTA        |
+| RNF-003 | O desenvolvimento deve ser em Javascript; HTML e CSS.      |ALTA        |
+| RNF-004 | O sistema deve funcionar on-line.                          |Content     |
 
 
 ## Restrições
