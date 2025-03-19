@@ -9,7 +9,6 @@ Este projeto tem como objetivo desenvolver uma aplicação web, para auxiliar pe
 | Patrícia, 26 anos, assistente comercial, está acima do peso, usa Facebook e Instagram para buscar informações sobre saúde. | Ter um método eficaz para emagrecer e melhorar sua alimentação, e receber conteúdos relevantes e práticos sobre dieta |  Ter um estilo de vida saudável, e fazer uma dieta sem perder tempo e manter a motivação. |
 | Fernando de 28 anos, Analista de TI e triatleta amador, treina 6 dias por semana (corrida, ciclismo e natação).| Melhorar a performance esportiva e otimizar a alimentação para recuperação muscular, e entender conceitos básicos de nutrição, para ajustes na dieta. | Monitorar a evolução do peso e da composição corporal, evitar fadiga e lesões por má alimentação, e garantir ingestão adequada de calorias e macros para suportar os treinos.|
 | Amanda, 30 anos, técnico em Contabilidade, deseja ter uma vida saudável, faz acompanhamento nutricional |. Quero algo para centralizar minhas refeições, bem como um gerenciamento melhor da dieta e objetivos | Acompanhar minhas medidas corporais, peso, e fotos do início e do final de cada ciclo |
-|----------------------|------------------------------------------------------ |----------------------------------|
 
 ---
 
