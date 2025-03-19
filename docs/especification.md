@@ -15,6 +15,8 @@ Este projeto tem como objetivo desenvolver uma aplicação web, para auxiliar pe
 
 - Pedro, como alguém que está acima do peso e não tem muito tempo para organizar uma dieta, quer um site que ofereça planos de refeições saudáveis, rápidos e personalizados, para que possa melhorar sua saúde, perder peso de forma sustentável e se alimentar melhor sem gastar muito tempo planejando.
 - Lucina, como atleta e praticante de atividade física, quer um sistema de gestão de dieta que a ajude a planejar suas refeições, monitorar a ingestão de nutrientes e ajustar a alimentação conforme seu desempenho, para que ela possa atingir seus objetivos de performance e recuperação muscular.
+- Rodrigo, sou aposentado e fico maior parte do meu tempo em casa, preciso de algo que seja direto e leve em consideração minhas codições de saúde em minha dieta, como tenho meus afazeres quero algo que me avise os horarios e os alimentos de cada refeição
+
 
 
 ### Requisitos Funcionais
