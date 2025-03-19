@@ -11,16 +11,13 @@ Este projeto tem como objetivo desenvolver uma aplicação web, para auxiliar pe
 | Amanda, 30 anos, técnico em Contabilidade, deseja ter uma vida saudável, faz acompanhamento nutricional. | Quero algo para centralizar minhas refeições, bem como um gerenciamento melhor da dieta e objetivos. | Acompanhar minhas medidas corporais, peso, e fotos do início e do final de cada ciclo. |
 |Marco Paulo, 24 anos, operador de caixa em uma rede de supermercados, têm intolerâncias ao glúten e a lactose.| Personalizar uma dieta para necessidades específicas, e se interessa por receitas adaptadas de acordo com sua intolerância, e conhecer maneiras práticas e rápidas para preparo de refeições. | Ter uma alimentação saudável e controlada, e ter acesso a refeições adequadas à suas necessidades alimentícias, de acordo com o seu paladar.|
 
----
-
 ## Histórias de Usuários
 
 - Pedro, como alguém que está acima do peso e não tem muito tempo para organizar uma dieta, quer um site que ofereça planos de refeições saudáveis, rápidos e personalizados, para que possa melhorar sua saúde, perder peso de forma sustentável e se alimentar melhor sem gastar muito tempo planejando.
 - Lucina, como atleta e praticante de atividade física, quer um sistema de gestão de dieta que a ajude a planejar suas refeições, monitorar a ingestão de nutrientes e ajustar a alimentação conforme seu desempenho, para que ela possa atingir seus objetivos de performance e recuperação muscular.
 - Rodrigo, sou aposentado e fico maior parte do meu tempo em casa, preciso de algo que seja direto e leve em consideração minhas codições de saúde em minha dieta, como tenho meus afazeres quero algo que me avise os horarios e os alimentos de cada refeição
 - Luis Campos, passo boa parte do meu tempo em reuniões e trabalhando. Em diversos momentos, me perguntei onde está minha dieta, o que devo comer hoje, quantas gramas desse alimento devo colocar, busco algo onde eu possa centralizar estas informações e possa acessá-las de forma rápida.
-
-
+- Maria Cleuza, como diabética, constantemente me pergunto quais alimentos posso comer e em quais quantidades devo consumir, são tantos portais de notícias e tantos profissionais de saúde, cada um falando uma coisa diferente que não sei onde encontrar informações confiáveis.
 
 ### Requisitos Funcionais
  
@@ -36,7 +33,6 @@ Este projeto tem como objetivo desenvolver uma aplicação web, para auxiliar pe
 | RF-008  | Fornecer um sistema de inventário de alimentos integrado com as refeições diárias.                          |MÉDIA       |
 | RF-009  | Disponibilizar um relatório dos alimentos consumidos diário, semanal e mensal.                              |BAIXA       |
 
-
 ### Requisitos não Funcionais
 
 | ID      | DESCRIÇÃO DO REQUISITO                                     | PRIORIDADE |
@@ -45,7 +41,6 @@ Este projeto tem como objetivo desenvolver uma aplicação web, para auxiliar pe
 | RNF-002 | A interface deve ser simples e intuitiva                   |ALTA        |
 | RNF-003 | O desenvolvimento deve ser em Javascript; HTML e CSS.      |ALTA        |
 | RNF-004 | O sistema deve funcionar on-line.                          |ALTA        |
-
 
 ## Restrições
 
