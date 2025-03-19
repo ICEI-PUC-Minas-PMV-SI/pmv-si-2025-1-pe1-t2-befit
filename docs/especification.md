@@ -32,7 +32,8 @@ Este projeto tem como objetivo desenvolver uma aplicação web, para auxiliar pe
 | RF-005  | Disponibilizar ferramenta para monitoramento do peso por meio do cálculo de IMC (índice de Massa Corporal). |MÉDIA       |
 | RF-006  | Oferecer ferramenta para calcular a quantidade de carboidratos, proteínas e gorduras da dieta.              |MÉDIA       |
 | RF-007  | Disponibilizar agenda semanal para organização das refeições descritos na dieta (café, almoço, jantar).     |ALTA        |
-| RF-008  | Disponibilizar um relatório dos alimentos consumidos diário, semanal e mensal.                              |BAIXA       |
+| RF-008  | Fornecer um sistema de inventário de alimentos integrado com as refeições diárias.                          |MÉDIA       |
+| RF-009  | Disponibilizar um relatório dos alimentos consumidos diário, semanal e mensal.                              |BAIXA       |
 
 
 ### Requisitos não Funcionais
