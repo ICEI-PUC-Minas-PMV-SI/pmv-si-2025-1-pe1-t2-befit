@@ -6,18 +6,16 @@ Este projeto tem como objetivo desenvolver uma aplicação web, para auxiliar pe
 
 | EU COMO PERSONA      | QUERO/PRECISO FUNCIONALIDADE                          | PARA MOTIVAR/VALOR               |
 |----------------------|------------------------------------------------------ |----------------------------------|
-| Patrícia, 26 anos, assistente comercial, está acima do peso, usa Facebook e Instagram para buscar informações sobre saúde e bem-estar  |  Ter um método eficaz para emagrecer e melhorar sua alimentação, e receber conteúdos relevantes e práticos sobre dieta | Busca um estilo de vida saudável, e quer fazer uma dieta sem perder tempo e manter a motivação |
-| Fernando de 28 anos, Analista de TI e triatleta amador, treina 6 dias por semana (corrida, ciclismo e natação)| Melhorar a performance esportiva e otimizar a alimentação para recuperação muscular, e entender conceitos básicos de nutrição, para ajustes na dieta. | Monitorar a evolução do peso e da composição corporal, evitar fadiga e lesões por má alimentação, e garantir ingestão adequada de calorias e macros para suportar os treinos.|
+| Patrícia, 26 anos, assistente comercial, está acima do peso, usa Facebook e Instagram para buscar informações sobre saúde. | Ter um método eficaz para emagrecer e melhorar sua alimentação, e receber conteúdos relevantes e práticos sobre dieta | Busca um estilo de vida saudável, e quer fazer uma dieta sem perder tempo e manter a motivação. |
+| Fernando de 28 anos, Analista de TI e triatleta amador, treina 6 dias por semana (corrida, ciclismo e natação).| Melhorar a performance esportiva e otimizar a alimentação para recuperação muscular, e entender conceitos básicos de nutrição, para ajustes na dieta. | Monitorar a evolução do peso e da composição corporal, evitar fadiga e lesões por má alimentação, e garantir ingestão adequada de calorias e macros para suportar os treinos.|
 |----------------------|------------------------------------------------------ |----------------------------------|
 
-
-- Patrícia tem 26 anos, ganha entre R$ 2 mil e R$ 3 mil e trabalha como assistente comercial em uma empresa de médio porte em Belo Horizonte. Adora o estilo de vida saudável, vai a academia três vezes por semana. Ela está acima do peso, já tentou emagrecer com uma dieta, mas sem sucesso, e agora se sente desmotivada por não ter alcançado os resultados esperados na dieta que fez, por falta de conhecimento e por falta de tempo para gerir uma dieta de forma eficaz. (original)
 
 ## Histórias de Usuários
 
 - Pedro, como alguém que está acima do peso e não tem muito tempo para organizar uma dieta, quer um site que ofereça planos de refeições saudáveis, rápidos e personalizados, para que possa melhorar sua saúde, perder peso de forma sustentável e se alimentar melhor sem gastar muito tempo planejando.
 - Lucina, como atleta e praticante de atividade física, quer um sistema de gestão de dieta que a ajude a planejar suas refeições, monitorar a ingestão de nutrientes e ajustar a alimentação conforme seu desempenho, para que ela possa atingir seus objetivos de performance e recuperação muscular.
-- 
+
 
 ### Requisitos Funcionais
  
