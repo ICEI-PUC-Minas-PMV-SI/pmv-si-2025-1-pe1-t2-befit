@@ -41,4 +41,4 @@ A aplicação web projetada se destinará a atender primariamente os seguintes u
 
 - Pessoas acima de 18 anos que, por acreditarem muito no estilo de vida saudável, desejam melhorar a alimentação ou fazer uma dieta. Moram em regiões metropolitanas, e não conseguem fazer a gestão da alimentação e controle da dieta, devido à falta de tempo ou desconhecimento.
 - Atletas e praticantes de atividade física, que precisam ajustar a alimentação para melhorar o desempenho esportivo. Buscam dietas específicas, como alimentação para ganho de massa muscular, e tem interesse em monitoramento de macros e calorias.
-- Pessoas com restrições alimentares, ou com intolerâncias (glúten, lactose) ou alergias alimentares, que buscam personalização de dietas para necessidades específicas, e se Interesse por receitas adaptadas.
+- Pessoas com restrições alimentares, ou com intolerâncias (glúten, lactose) ou alergias alimentares, que buscam personalização de dietas para necessidades específicas, e se Interesse por receitas adaptadas. 
