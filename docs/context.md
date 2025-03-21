@@ -10,7 +10,7 @@ Nesse contexto, muitas pessoas enfrentam dificuldades para gerenciar suas dietas
 
 ## Problema
 
-Muitas pessoas enfrentam dificuldades na gestão diária de suas dietas devido à falta de tempo, organização e conhecimento sobre nutrição. Além disso, a complexidade dos planos alimentares, o uso de termos técnicos por profissionais e a indisponibilidade de ingredientes dificultam a adesão e a obtenção de resultados eficazes. É necessário desenvolver uma solução que torne o planejamento alimentar mais acessível, prático e eficiente.
+Muitas pessoas enfrentam dificuldades na gestão diária de suas dietas devido à falta de tempo, organização e conhecimento sobre nutrição. Além disso, a complexidade dos planos alimentares, o uso de termos técnicos por profissionais, a falta de conhecimento sobre quais alimentos podem ser substituidos e a indisponibilidade de ingredientes na dispensa dificultam a adesão e a obtenção de resultados eficazes. Fazendo com que muitos abandonem o protocolo alimentar. Pensando nisso viu-se a necessidade de desenvolver uma solução que torne o planejamento alimentar mais acessível, prático e eficiente.
 
 
 ## Objetivos
