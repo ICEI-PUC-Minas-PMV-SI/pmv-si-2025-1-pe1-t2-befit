@@ -6,7 +6,13 @@
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+As pessoas estão cada vez mais preocupadas com a saúde e buscam dietas eficientes.
+No entanto, a rotina agitada torna difícil seguir dietas complexas. Além disso, o uso
+indiscriminado de medicamentos como Ozempic, sem orientação médica, tem gerado
+preocupações devido aos riscos à saúde. A falta de conhecimento sobre nutrição
+também contribui para esse problema. Uma solução seria o desenvolvimento de uma
+aplicação web que oferecesse cardápios personalizados, simplificando a gestão
+alimentar e promovendo uma alimentação equilibrada e consciente.
 
 ## Integrantes
 
