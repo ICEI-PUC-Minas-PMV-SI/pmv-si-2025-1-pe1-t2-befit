@@ -4,7 +4,7 @@
 
 `DISCIPLINA: Projeto - Aplicações Web`
 
-`SEMESTRE: 1º`
+`Eixo 01`
 
 As pessoas estão cada vez mais preocupadas com a saúde e buscam dietas eficientes.
 No entanto, a rotina agitada torna difícil seguir dietas complexas. Além disso, o uso
