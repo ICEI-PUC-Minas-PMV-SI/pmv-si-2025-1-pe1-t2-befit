@@ -15,7 +15,7 @@ Muitas pessoas enfrentam dificuldades na gestão diária de suas dietas devido �
 
 ## Objetivos
 
-Objetivo geral: Facilitar a gestão alimentar em dietas, proporcionando maior eficiência e autonomia para otimizar resultados sem a necessidade de acompanhamento contínuo de um profissional.
+Objetivo geral: Desenvolver uma aplicação Web, para facilitar a gestão alimentar em dietas, proporcionando maior eficiência e autonomia para otimizar resultados sem a necessidade de acompanhamento contínuo de um profissional.
 
 Objetivo específico:
 -	Gerenciar estoques particular de alimentos utilizados na dieta.
