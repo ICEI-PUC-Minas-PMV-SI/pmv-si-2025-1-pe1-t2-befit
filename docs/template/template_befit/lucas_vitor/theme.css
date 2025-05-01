@@ -1,0 +1,346 @@
+/* ======= RESET AND BASE ======= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 100%;
+  }
+  
+  body {
+    font-family: var(--font-body);
+    font-size: var(--font-size-body);
+    line-height: 1.6;
+    color: var(--color-text-dark);
+    background-color: var(--color-bg-light);
+  }
+  
+  /* ======= THEME VARIABLES ======= */
+  :root {
+    /* Brand colors */
+    --color-laranja: #F79D31;
+    --color-marrom: #735636;
+    --color-verde-escuro: #507C20;
+    --color-verde-claro: #76AE1D;
+  
+    /* Support colors */
+    --color-text-dark: #333333;
+    --color-bg-light: #fefefe;
+    --color-white: #ffffff;
+  
+    /* Typography */
+    --font-primary: Arial, sans-serif;
+    --font-body: Arial, sans-serif;
+  
+    /* Font sizes */
+    --font-size-h1: 45px;
+    --font-size-h2: 35px;
+    --font-size-h3: 25px;
+    --font-size-button: 15px;
+    --font-size-body: 13px;
+  
+    /* Font weight */
+    --font-weight-bold: bold;
+  }
+  
+  /* ======= TYPOGRAPHY ======= */
+  h1 {
+    font-size: var(--font-size-h1);
+    font-weight: var(--font-weight-bold);
+    font-family: var(--font-primary);
+    color: var(--color-laranja);
+  }
+  
+  h2 {
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-bold);
+    font-family: var(--font-primary);
+    color: var(--color-verde-escuro);
+  }
+  
+  h3 {
+    font-size: var(--font-size-h3);
+    font-weight: var(--font-weight-bold);
+    font-family: var(--font-primary);
+    color: var(--color-marrom);
+  }
+  
+  p {
+    font-size: var(--font-size-body);
+    font-family: var(--font-body);
+    color: var(--color-text-dark);
+  }
+  
+  /* ======= BUTTONS AND BOXES ======= */
+  .button, .box {
+    font-size: var(--font-size-button);
+    font-weight: var(--font-weight-bold);
+    font-family: var(--font-primary);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button.primary {
+    background-color: var(--color-verde-claro);
+    color: var(--color-white);
+  }
+  
+  .button.primary:hover {
+    background-color: var(--color-verde-escuro);
+  }
+  
+  /* ======= RESPONSIVE LAYOUT ======= */
+  
+    .search{
+        display: flex;
+    }
+    .nav_bar {
+        display: flex;
+    }
+    .logo {
+     max-width: 200px;
+     height: auto;
+     display: block;
+    }   
+
+  /* Menu vertical */
+   /* Menu desktop */
+   .menu-desktop {    
+    display: flex;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 10px;
+  }
+
+  .menu-desktop a {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+  }
+
+  .menu-desktop li a:hover {
+    text-decoration: underline;
+    /*background-color: white;*/
+  }
+
+  .menu-desktop li {
+    list-style: none;
+  }
+  
+
+  /* Hamburger menu */
+  .menu-toggle {
+    position: absolute;
+    top: 45px;
+    right: 25px;
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+    z-index: 1001;
+    display: none; /* escondido no desktop */
+  }
+
+  .menu-toggle span {
+    display: block;
+    height: 4px;
+    background: #0a0a0a;
+    margin: 5px 0;
+    transition: 0.4s;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    right: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #3d3d3d;
+    color: white;
+    padding-top: 60px;
+    transition: 0.4s;
+    z-index: 1000;
+  }
+
+  .sidebar a {
+    display: block;
+    padding: 16px 30px;
+    margin-right: 40px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+  }
+
+  .sidebar a:hover {
+    /*background-color: #444;*/
+    text-decoration: underline;
+  }
+
+  .sidebar li {
+    list-style-type: none;
+  }
+  
+
+  #menu-checkbox {
+    display: none;
+  }
+
+  #menu-checkbox:checked ~ .sidebar {
+    right: 0;
+  }
+
+  /* Animação botão hamburger 
+  #menu-checkbox:checked + .menu-toggle span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  #menu-checkbox:checked + .menu-toggle span:nth-child(2) {
+    opacity: 0;
+  }
+
+  #menu-checkbox:checked + .menu-toggle span:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+  }
+  */
+  .body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .header {
+    flex: 1;
+  }
+  .main {
+    flex: 1;
+  }
+  .footer {
+    flex: 1;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Desktop: 1280px to 1024px */
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+    .container {
+      padding: 16px;
+    }
+  }
+  
+  /* Tablet Landscape: 1024px to 768px */
+  @media all and (min-width: 768px) and (max-width: 1024px) {
+    h1 {
+      font-size: 36px;
+    }
+  
+    h2 {
+      font-size: 28px;
+    }
+  
+    h3 {
+      font-size: 22px;
+    }
+  
+    .container {
+      padding: 16px;
+    }
+  }
+  
+  /* Tablet Portrait: 768px to 480px */
+  @media all and (min-width: 480px) and (max-width: 768px) {
+    h1 {
+      font-size: 32px;
+    }
+  
+    h2 {
+      font-size: 24px;
+    }
+  
+    h3 {
+      font-size: 20px;
+    }
+  
+    .button, .box {
+      font-size: 13px;
+      padding: 8px 16px;
+    }
+  }
+  
+  /* Phone: 480px and smaller */
+  @media all and (max-width: 480px) {
+    h1 {
+      font-size: 28px;
+    }
+  
+    h2 {
+      font-size: 22px;
+    }
+  
+    h3 {
+      font-size: 18px;
+    }
+  
+    p {
+      font-size: 12px;
+    }
+  
+    .button, .box {
+      font-size: 12px;
+      padding: 6px 12px;
+    }
+  }
+  
+  /* Portrait orientation */
+  @media screen and (orientation:portrait) {
+    /* Portrait-specific styles */
+  }
+  
+  /* Landscape orientation */
+  @media screen and (orientation:landscape) {
+    /* Landscape-specific styles */
+  }
+  
+  /* Non-Retina displays */
+  @media screen and (-webkit-max-device-pixel-ratio: 1) {
+    /* Styles for non-retina screens */
+  }
+  
+  /* Retina displays */
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (-o-min-device-pixel-ratio: 3/2),
+  only screen and (min--moz-device-pixel-ratio: 1.5),
+  only screen and (min-device-pixel-ratio: 1.5) {
+    /* Styles for retina screens */
+  }
+  
+  /* iPhone Portrait */
+  @media screen and (max-device-width: 480px) and (orientation:portrait) {
+    /* iPhone portrait-specific styles */
+  }
+  
+  /* iPhone Landscape */
+  @media screen and (max-device-width: 480px) and (orientation:landscape) {
+    /* iPhone landscape-specific styles */
+  }
+  
+  /* iPad Portrait */
+  @media screen and (min-device-width: 481px) and (orientation:portrait) {
+    /* iPad portrait-specific styles */
+  }
+  
+  /* iPad Landscape */
+  @media screen and (min-device-width: 481px) and (orientation:landscape) {
+    /* iPad landscape-specific styles */
+  }
