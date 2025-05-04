@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UZ-Compatible" content="ie=edge">
+    <script src="receitas.js"></script>
+    <link rel="stylesheet" href="../style_befit.css">
+    <link rel="stylesheet" href="receitas.css">
+
+    <title>BeFit</title>
+
+    <div class="header">
+        <img src="../imgs/Logo_Befit.png" alt"imagem tela incial" class="logo" ;>
+        <div class="menu-desktop">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Saúde">Saúde</a></li>
+                <li><a href="#Bem-estar">Bem-estar</a></li>
+                <li><a href="#Dietas">Dietas</a></li>
+                <li><a href="#Receitas">Receitas</a></li>
+                <li><a href="#Agenda">Agenda</a></li>
+                <li><a href="#IMC">IMC</a></li>
+                <li style="float:right">
+                    <form class="search-container" action="#" method="get">
+                        <input type="text" name="q" placeholder="Pesquisar...">
+                        <button type="submit" title="Buscar">
+                            <!-- Ícone de lupa em SVG -->
+                            <img src="../imgs/lupa.svg" alt="lupa" />
+                        </button>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <!-- Checkbox controlador -->
+            <input type="checkbox" id="menu-checkbox">
+
+            <!-- Botão hamburger (lado direito) -->
+            <label class="menu-toggle" for="menu-checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <!-- Menu lateral (direita) -->
+            <nav class="sidebar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Saúde</a></li>
+                    <li><a href="#">Bem-estar</a></li>
+                    <li><a href="#">Dietas</a></li>
+                    <li><a href="#">Receitas</a></li>
+                    <li><a href="#">Agenda</a></li>
+                    <li><a href="#">IMC</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</head>
+
+<body>
+
+
+    <div class="grid-container">
+
+        <div class="overlay" id="popupOverlay">
+            <div class="popup">
+                <h2 id="popupTitle"></h2>
+                <p id="contentPanqueca">Para preparar essa receita, amasse a banana e misture-a em um recipiente com os
+                    ovos batidos. Em seguida, adicione a aveia e o cacau, misturando tudo com um garfo até obter uma
+                    massa homogênea. Despeje pequenas porções da massa em uma frigideira untada e antiaderente, tampe e
+                    vire as panquecas quando dourarem. Para finalizar, polvilhe coco ralado por cima das panquecas
+                    prontas, se desejar.</p>
+                <p id="contentBerinjela">Para preparar essa receita, corte a berinjela ao meio no sentido do
+                    comprimento, retire parte da polpa deixando uma borda de 1 cm e pique a polpa em cubos. Refogue alho
+                    no azeite, adicione a carne moída, a polpa da berinjela, molho de tomate, cebolinha e sal,
+                    cozinhando até tudo ficar bem incorporado. Recheie as metades da berinjela com essa mistura, cubra
+                    com queijo mussarela ralado e azeitonas fatiadas, leve ao forno pré-aquecido a 180 °C, coberto com
+                    papel-alumínio, e asse por 30 minutos antes de servir.</p>
+                <p id="contentPudim">Para preparar essa receita, misture o iogurte natural com a chia, o leite (que pode
+                    ser vegetal), o adoçante e, se desejar, adicione baunilha, coco ralado e canela. Leve a mistura à
+                    geladeira para que a chia hidrate completamente e, na hora de servir, pode complementar com frutas a
+                    gosto.</p>
+                <p id="contentRolinho">Para preparar o rolinho de abobrinha com frango, corte as abobrinhas em fatias
+                    finas no sentido do comprimento, grelhe rapidamente em uma frigideira com azeite, polvilhe com sal e
+                    deixe esfriar. Misture o frango desfiado com azeitona, cheiro-verde, cenoura ralada, tomate picado,
+                    requeijão e sal para formar o recheio. Sobreponha três fatias de abobrinha, recheie e enrole como um
+                    rocambole; repita o processo com o restante dos ingredientes. Finalize decorando com folhas de
+                    manjericão e sirva.</p>
+                <button onclick="fecharPopup()">Fechar</button>
+            </div>
+        </div>
+
+        <div class="left" style="background-color:#F79D31;">
+            <h1>Receitas</h1>
+            <table id="tabelaReceitas">
+                <thead>
+                    <tr>
+                        <th>Receita</th>
+                        <th>Tempo de Preparo</th>
+                        <th>Complexidade</th>
+                        <th>Favorita</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="#" type="panqueca" data-texto="Receita da panqueca de banana"
+                                onclick="abrirPopup(this); return false;">Panqueca de banana</a></td>
+                        <td>20 minutos</td>
+                        <td>Fácil</td>
+                        <td class="center">true</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#" type="berinjela" data-texto="Receita da Berinjela recheada"
+                                onclick="abrirPopup(this); return false;">Berinjela recheada</a></td>
+                        <td>1 hora e 30 minutos</td>
+                        <td>Fácil</td>
+                        <td class="center">false</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#" type="pudim" data-texto="Receita do pudim de chia"
+                                onclick="abrirPopup(this); return false;">Pudim de chia</a></td>
+                        <td>2 horas</td>
+                        <td>Médio</td>
+                        <td class="center">false</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#" type="rolinho" data-texto="Receita do Rolinhos de frango com abobrinha"
+                                onclick="abrirPopup(this); return false;">Rolinhos de frango com abobrinha</a></td>
+                        <td>55 minutos</td>
+                        <td>Médio</td>
+                        <td class="center">true</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="right" style="background-color:#F79D31;">
+            <p class="img_01"><img src="../imgs/img_receitas.png" alt" " class=" inicio";></p>
+        </div>
+
+        <div class="footer">
+            <p>Copyright 2025 - BeFit- Todos os direitos reservados</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
