@@ -63,17 +63,13 @@ Devido a neutralidade da fonte Arial, ela é extremamente versátil, adequada pa
 Conclusão
 Arial é uma escolha estratégica para nosso projeto web, que priorizam desempenho, legibilidade e acessibilidade, além disso, ela cumpre com excelência os requisitos funcionais e estéticos da maioria dos navegadores.
 
-Usaremos a seguintes configurações:
+Usaremos as seguintes configurações:
 
-•	Títulos (H1): Arial bold, tamanho 45
-
-•	Subtítulos (H2): Arial bold, tamanho 35
-
-•	Subtítulos (H3): Arial bold, tamanho 25
-
-•	Box e Botões: Arial bold, tamanho 15
-
-•	Corpo do texto (p): Arial, tamanho 13
+-	Títulos (H1): Arial bold, tamanho 45
+-	Subtítulos (H2): Arial bold, tamanho 35
+-	Subtítulos (H3): Arial bold, tamanho 25
+-	Box e Botões: Arial bold, tamanho 15
+-	Corpo do texto (p): Arial, tamanho 13
 
 
 ## Iconografia
