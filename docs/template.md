@@ -6,7 +6,11 @@ Explique as guias de estilo utilizadas no seu projeto.
 
 ## Design
 
-Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
+As formas escolhidas para representar a nossa marca, se estruturam a partir de linhas verticais que visam transmitir progresso e crescimento e linhas horizontais que representam a fluidez e uma sensação de tranquilidade, além disso, por meio da lei da atração e do agrupamento, busca-se uma composição visual para construir significado para o nosso público alvo, ou seja, aqueles que estão em busca de uma ferramenta para fazer uma dieta. Assim, a logo é o ponto de partida de nossa marca, associando, linhas, cores e formas.
+
+Para garantir a harmonia, buscamos o equilíbrio entre formas e cores, neste sentido, a escolha e a aplicação das cores de uma identidade visual são fundamentais para a construção e o reconhecimento de uma marca forte, assim, nossa marca, fará o uso das cores: #F79D31 (laranja), #735636 (marrom), #507C20 (verde escuro) e #76AE1D (verde claro), que foram selecionadas estrategicamente para transmitir os valores e a essência da nossa identidade.
+
+No layout padrão do site, a logo será posicionada no lado esquerdo superior, no lado direito existirá uma barra de pesquisa, e ao centro será apresentado o mundo para navegação entre as páginas. Na versão para dispositivos móveis, o menu central, será substituído por um menu suspenso, no modelo hamburguer, que será posicionado no lado direito superior.
 
 
 ## Cores
