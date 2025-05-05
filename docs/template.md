@@ -16,7 +16,30 @@ Apresente a paleta de cores que será utilizada. Uma ferramenta interessante par
 
 ## Tipografia
 
-Apresente as fontes que serão utilizadas e sua função no site. As principais funções são: Título de página, Título de Seção, Rótulos de componentes e Corpo de Texto.
+Defesa do Uso da Fonte Arial em um Site
+
+A escolha tipográfica é um dos elementos mais importantes no design de um site, dessa forma adotaremos com critérios para a escolha da fonte, a legibilidade, acessibilidade. Optamos pela escolha da fonte Arial, devido os seguintes fatores:
+
+1. Alta legibilidade
+Arial é uma fonte sans-serif limpa e de fácil leitura, tanto em tamanhos pequenos quanto grandes. Seu design simples favorece a leitura rápida e confortável, o que é essencial para a experiência do usuário, especialmente em dispositivos móveis.
+
+3. Compatibilidade universal
+Por ser uma fonte do sistema, Arial está presente na maioria dos sistemas operacionais, navegadores e dispositivos. Isso garante consistência visual sem a necessidade de carregamento de fontes externas, reduzindo o tempo de carregamento da página e melhorando o desempenho do site.
+
+4. Acessibilidade
+Arial atende aos padrões de acessibilidade tipográfica, sendo uma escolha segura para usuários com deficiências visuais leves. Sua clareza de formas evita confusões entre letras semelhantes, o que é crucial para sites informativos ou educacionais.
+
+5. Neutralidade e versatilidade
+Devido a neutralidade da fonte Arial, ela é extremamente versátil, adequada para diversos segmentos, não interfere na mensagem do conteúdo, permitindo que o texto fale por si, sem distrações estéticas desnecessárias.
+Conclusão
+Arial é uma escolha estratégica para nosso projeto web, que priorizam desempenho, legibilidade e acessibilidade, além disso, ela cumpre com excelência os requisitos funcionais e estéticos da maioria dos navegadores.
+
+Usaremos a seguintes configurações:
+•	Títulos (H1): Arial bold, tamanho 45
+•	Subtítulos (H2): Arial bold, tamanho 35
+•	Subtítulos (H3): Arial bold, tamanho 25
+•	Box e Botões: Arial bold, tamanho 15
+•	Corpo do texto (p): Arial, tamanho 13
 
 
 ## Iconografia
