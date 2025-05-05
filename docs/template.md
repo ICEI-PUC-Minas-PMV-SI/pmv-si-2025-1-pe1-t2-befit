@@ -11,7 +11,14 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 ## Cores
 
-Apresente a paleta de cores que será utilizada. Uma ferramenta interessante para a criação de palestas de cores é o *Adobe Color* ([https://color.adobe.com/pt/create/color-wheel](https://color.adobe.com/pt/create/color-wheel)).
+O uso consistente dessas cores assegura a integridade da marca, garantindo que ela seja facilmente reconhecida em qualquer material de comunicação, e a aplicação correta das cores fortalece a identidade visual, tornando-a impactante para nosso público-alvo.
+
+Cada cor escolhida tem um papel específico na comunicação da marca:
+
+•	#F79D31 (laranja): Representa dinamismo, criatividade e energia, transmitindo um espírito vibrante para quem está em busca da boa forma física.
+•	#735636 (marrom): Evoca solidez, confiabilidade e conexão com a natureza, associando-se a elementos orgânicos, voltados a uma dieta saudável.
+•	#507C20 (verde escuro): Simboliza sustentabilidade, crescimento e equilíbrio, alinhando-se a conceitos ecológicos, estando associada à saúde, harmonia, natureza e bem-estar.
+•	#76AE1D (verde claro): Complementado o verde escuro, o verde claro traz frescor, inovação e acessibilidade à comunicação visual, associado diretamente a linhas suaves de nossa marca.
 
 
 ## Tipografia
