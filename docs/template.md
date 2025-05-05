@@ -16,8 +16,11 @@ O uso consistente dessas cores assegura a integridade da marca, garantindo que e
 Cada cor escolhida tem um papel específico na comunicação da marca:
 
 •	#F79D31 (laranja): Representa dinamismo, criatividade e energia, transmitindo um espírito vibrante para quem está em busca da boa forma física.
+
 •	#735636 (marrom): Evoca solidez, confiabilidade e conexão com a natureza, associando-se a elementos orgânicos, voltados a uma dieta saudável.
+
 •	#507C20 (verde escuro): Simboliza sustentabilidade, crescimento e equilíbrio, alinhando-se a conceitos ecológicos, estando associada à saúde, harmonia, natureza e bem-estar.
+
 •	#76AE1D (verde claro): Complementado o verde escuro, o verde claro traz frescor, inovação e acessibilidade à comunicação visual, associado diretamente a linhas suaves de nossa marca.
 
 
