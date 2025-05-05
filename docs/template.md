@@ -15,6 +15,8 @@ No layout padrão do site, a logo será posicionada no lado esquerdo superior, n
 
 ## Cores
 
+Comunicação dos Valores da Marca
+
 O uso consistente dessas cores assegura a integridade da marca, garantindo que ela seja facilmente reconhecida em qualquer material de comunicação, e a aplicação correta das cores fortalece a identidade visual, tornando-a impactante para nosso público-alvo.
 
 Cada cor escolhida tem um papel específico na comunicação da marca:
@@ -26,6 +28,19 @@ Cada cor escolhida tem um papel específico na comunicação da marca:
 •	#507C20 (verde escuro): Simboliza sustentabilidade, crescimento e equilíbrio, alinhando-se a conceitos ecológicos, estando associada à saúde, harmonia, natureza e bem-estar.
 
 •	#76AE1D (verde claro): Complementado o verde escuro, o verde claro traz frescor, inovação e acessibilidade à comunicação visual, associado diretamente a linhas suaves de nossa marca.
+
+Diferenciação no Mercado
+
+O conjunto cromático escolhido usa tonalidades associadas à saúde e a natureza, permitindo que a marca se destaque no mercado. A combinação entre tons quentes e terrosos cria uma identidade única, reforçando a personalidade da marca.
+
+Aplicabilidade e Versatilidade
+
+As cores foram selecionadas considerando sua aplicação eficiente em diversos suportes a materiais digitais, além disso, a harmonia entre os tons garante alta legibilidade e adaptação a diferentes contextos de uso.
+
+Conclusão
+
+A aplicação correta das cores do manual da marca não é apenas uma diretriz estética, mas uma estratégia essencial para consolidar a identidade visual, comunicar valores e garantir a consistência da marca. Seguir as especificações definidas fortalece a presença da marca no mercado e aprimora sua percepção pelo público, assegurando um posicionamento sólido e profissional.
+Fonte: CARVALHO, Anna. Identidade visual. 1. ed. Curitiba: Intersaberes, 2021. E-book. Disponível em: https://plataforma.bvirtual.com.br. Acesso em: 31 mar. 2025.
 
 
 ## Tipografia
