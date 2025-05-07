@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UZ-Compatible" content="ie=edge">
+    <script src="receitas.js"></script>
+    <link rel="stylesheet" href="../style_befit.css">
+    <link rel="stylesheet" href="receitas.css">
+
+    <title>BeFit</title>
+
+    <div class="header">
+        <img src="../imgs/Logo_Befit.png" alt"imagem tela incial" class="logo" ;>
+        <div class="menu-desktop">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Saúde">Saúde</a></li>
+                <li><a href="#Bem-estar">Bem-estar</a></li>
+                <li><a href="#Dietas">Dietas</a></li>
+                <li><a href="#Receitas">Receitas</a></li>
+                <li><a href="#Agenda">Agenda</a></li>
+                <li><a href="#IMC">IMC</a></li>
+                <li style="float:right">
+                    <form class="search-container" action="#" method="get">
+                        <input type="text" name="q" placeholder="Pesquisar...">
+                        <button type="submit" title="Buscar">
+                            <!-- Ícone de lupa em SVG -->
+                            <img src="../imgs/lupa.svg" alt="lupa" />
+                        </button>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <!-- Checkbox controlador -->
+            <input type="checkbox" id="menu-checkbox">
+
+            <!-- Botão hamburger (lado direito) -->
+            <label class="menu-toggle" for="menu-checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <!-- Menu lateral (direita) -->
+            <nav class="sidebar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Saúde</a></li>
+                    <li><a href="#">Bem-estar</a></li>
+                    <li><a href="#">Dietas</a></li>
+                    <li><a href="#">Receitas</a></li>
+                    <li><a href="#">Agenda</a></li>
+                    <li><a href="#">IMC</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</head>
+
+<body>
+
+
+    <div class="grid-container">
+
+        <div class="left" style="background-color:#F79D31;">
+            <h1>Escolha uma Dieta</h1>
+            <div style="padding: 0 0 0 150px;">
+                <h2><a href="receitas.html">01/02/2025</a></h2>
+                <h2><a href="receitas.html">15/04/2025</a></h2>
+                <h2><a href="receitas.html">15/04/2025</a></h2>
+            </div>
+        </div>
+
+        <div class="right" style="background-color:#F79D31;">
+            <p class="img_01"><img src="../imgs/img_receitas.png" alt" " class=" inicio";></p>
+        </div>
+
+        <div class="footer">
+            <p>Copyright 2025 - BeFit- Todos os direitos reservados</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

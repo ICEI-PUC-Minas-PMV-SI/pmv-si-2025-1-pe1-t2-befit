@@ -28,11 +28,16 @@ function abrirPopup(linkClicado) {
     }
 
     document.getElementById("popupTitle").innerText = texto;
-    document.getElementById("popupOverlay").style.display = "flex";
+    document.getElementById("popupReceitas").style.display = "flex";
+}
+function abrirPopupInfo() {
+  fecharPopup("popupReceitas")
+  document.getElementById("popupAgenda").style.display = "flex";
 }
 
-function fecharPopup() {
-    document.getElementById("popupOverlay").style.display = "none";
+
+function fecharPopup(idName) {
+    document.getElementById(idName).style.display = "none";
 }
 
 window.onload = function () {

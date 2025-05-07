@@ -65,7 +65,7 @@
 
     <div class="grid-container">
 
-        <div class="overlay" id="popupOverlay">
+        <div class="overlay" id="popupReceitas">
             <div class="popup">
                 <h2 id="popupTitle"></h2>
                 <p id="contentPanqueca">Para preparar essa receita, amasse a banana e misture-a em um recipiente com os
@@ -89,7 +89,18 @@
                     requeijão e sal para formar o recheio. Sobreponha três fatias de abobrinha, recheie e enrole como um
                     rocambole; repita o processo com o restante dos ingredientes. Finalize decorando com folhas de
                     manjericão e sirva.</p>
-                <button onclick="fecharPopup()">Fechar</button>
+                <button onclick="abrirPopupInfo()">Adicionar à agenda</button>
+                <button onclick="window.print()">Imprimir</button>
+                <button onclick="fecharPopup('popupReceitas')">Fechar</button>
+            </div>
+        </div>
+
+        
+        <div class="overlay" id="popupAgenda">
+            <div class="popup">
+                <h2 id="popupTitle"></h2>
+                <p>Receita adicionada com sucesso</p>          
+                <button onclick="fecharPopup('popupAgenda')">Fechar</button>
             </div>
         </div>
 
