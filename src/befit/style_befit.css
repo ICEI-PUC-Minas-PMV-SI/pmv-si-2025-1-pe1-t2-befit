@@ -1,6 +1,6 @@
 
-* {
-  box-sizing: border-box;
+section {
+  background-color:#F79D31;	
 }
 
 body {
@@ -103,6 +103,7 @@ td.center {
       padding: 5px 20px;
       width: 100%;
       max-width: 400px;
+	  box-sizing: border-box;
     }
 
     .search-container input {
