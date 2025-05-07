@@ -74,7 +74,12 @@ Usaremos as seguintes configurações:
 
 ## Iconografia
 
-Defina os ícones que serão utilizados e suas respectivas funções.
+Faremos o uso dos seguintes icones com as respectivas funções:
+
+Ícone da lupa: representando por um círculo com uma linha, é um símbolo que indica a função de pesquisa. Ele é amplamente utilizado em softwares e plataformas para sinalizar a possibilidade de encontrar informações, geralmente através de uma barra de pesquisa ou um campo de entrada de texto. 
+
+Ícone "menu hambúrguer": Faremos o uso ícone hambúrguer no menu, ou "menu de três barras", ele é um ícone que representa um menu de navegação, geralmente oculto, em interfaces de usuário, especialmente em dispositivos móveis. Este ícone, com três linhas horizontais, ao ser clicado, expande um menu com opções de navegação. 
+
 
 Apresente os estilos CSS criados para cada um dos elementos apresentados.
 Outras seções podem ser adicionadas neste documento para apresentar padrões de componentes, de menus, etc.
