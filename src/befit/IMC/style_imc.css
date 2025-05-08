@@ -1,8 +1,29 @@
   
+  section {
+    background-color:#F79D31;	
+  }
+  
   body {
     font-family: Arial, Helvetica, sans-serif;
   }
   
+  /*IMC*/
+
+  .table-calc {
+    width: 100%;
+    max-width: 600px;
+    margin-left: 40px;
+    font-size: 16px;
+  }
+  table {
+      background-color: transparent;
+  }
+  table {
+      border-collapse: collapse;
+      border-spacing: 0;
+  }
+
+
   /*tabela*/
   
   table {
@@ -39,7 +60,7 @@
       float: right;
       width: 600px;
       margin-right: -10px;
-    margin-bottom: -10px;
+      margin-bottom: -10px;
   
   }
   
@@ -47,14 +68,20 @@
   
       .left P {
           margin-left: 40px;
-          font-size: 20px;
-          max-width: 500px;
+          font-size: 16px;
+          max-width: 750px;
       }
   
       .left h1 {
           padding: 40px;
           font-size:40px;
       }
+
+      .left h2 {
+        padding: 5px;
+        font-size:40px;
+        margin-left: 40px;
+    }
       
       .left h3 {
           margin-left: 40px;
@@ -63,6 +90,17 @@
   
       .footer {
           font-size:15px;
+      }
+
+      .inputs-calc {
+          margin-left: 40px;
+          font-size:20px;
+
+      }
+
+      .calc-result {
+        margin-left: 40px;
+        font-size:20px;
       }
   
   /* Botão acesso */

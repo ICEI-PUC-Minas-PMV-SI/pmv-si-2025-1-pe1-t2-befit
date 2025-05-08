@@ -67,16 +67,81 @@
 
 
 
-<section class="left" style="background-color:#F79D31;">
-<h1>Chegou a hora de ser fitness</h1>
-<h3>Dieta da vez? Aqui não! </h3>
-<p>Acreditamos em uma alimentação consciente, não em restrições. <br>Descubra receitas que cabem no seu estilo de vida e fazem você se sentir incrível – dentro e fora da cozinha. Planos alimentares personalizados, Receitas saudáveis e saborosas, Dicas de nutricionistas especializados, e muito mais! <br>Clique em Cadastrar e comece sua jornada para uma vida mais equilibrada e saudável!</p>
-<button class="btn-cadastrar">Cadastrar</button>
-<button class="btn-cadastrar">Entrar</button>
+<section class="left">
+<h2>Cálculo de IMC</h2>
+<p>IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.</p>
+<p>O índice é calculado da seguinte maneira: divide-se o peso do paciente pela sua altura elevada ao quadrado. Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9.</p>
+<p>Quer descobrir seu IMC? Insira seu peso e sua altura nos campos abaixo e compare com os índices da tabela. Importante: siga os exemplos e use pontos como separadores.</p>
+
+<div class="inputs-calc">
+	<span>Altura <small>(ex.: 1,70)</small></span>
+	<input type="text" placeholder="Metros" id="altura_input" maxlength="4">
+</div>
+
+<div class="inputs-calc">
+	<span>Peso <small>(ex.: 69,2)</small></span>
+	<input type="text" placeholder="Quilos" id="peso_input" maxlength="6">
+</div>
+
+<button class="btn-cadastrar">Limpar</button>
+<button class="btn-cadastrar">Calcular</button>
+
+<div class="calc-result">
+	<span>RESULTADO DO SEU IMC:</span>
+	<strong></strong>
+</div>
+<br>
+<table class="table-calc" cellspacing="0">
+
+	<thead>
+		<tr>
+			<td colspan="3">Veja a interpretação do IMC</td>
+		</tr>
+	</thead>
+
+	<tbody>						
+		<tr class="table-calc-blue">
+			<td>IMC</td>
+			<td>Classificação</td>
+			<td style="text-align: center">Obesidade <small>(grau)</small></td>
+		</tr>
+		
+		<tr id="result_calc_0">
+			<td>Menor que 18,5</td>
+			<td>Magreza</td>
+			<td style="text-align: center">0</td>
+		</tr>
+		
+		<tr id="result_calc_1">
+			<td>Entre 18,5 e 24,9</td>
+			<td>Normal</td>
+			<td style="text-align: center">0</td>
+		</tr>
+		
+		<tr id="result_calc_2">
+			<td>Entre 25,0 e 29,9</td>
+			<td>Sobrepeso</td>
+			<td style="text-align: center">I</td>
+		</tr>
+		
+		<tr id="result_calc_3">
+			<td>Entre 30,0 e 39,9</td>
+			<td>Obesidade</td>
+			<td style="text-align: center">II</td>
+		</tr>
+
+		<tr id="result_calc_4">
+			<td>Maior que 40,0</td>
+			<td>Obesidade Grave</td>
+			<td style="text-align: center">III</td>
+		</tr>
+	</tbody>
+
+</table>
 </section>
 
-<section class="right" style="background-color:#F79D31;">
-<p class="img_01"><img src="../imgs/img_inicio.png" alt" " class="inicio";></p>
+<section class="right">
+	<p class="img_01"><img src="../imgs/img_inicio.png" alt" " class="inicio";></p>
 </section>
 
 <footer class="footer">
