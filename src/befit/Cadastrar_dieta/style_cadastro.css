@@ -1,0 +1,447 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Cadastro de Dietas*/
+
+
+.container {
+  max-width: 700px;
+  margin: 30px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h2, h3 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+/*input,*/ select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px;
+  width: 100%;
+  background-color: #76AE1D;;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0056b3;
+}
+.result {
+  margin-top: 30px;
+  background-color: #e9ecef;
+  padding: 10px;
+  border-radius: 4px;
+}
+.alimentos-lista {
+  margin-top: 15px;
+  padding-left: 10px;
+}
+
+
+/*tabela*/
+
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 2px solid black;
+  padding: 8px;
+}
+
+td.center {
+  text-align:center;
+}
+
+/* pop-up */
+.popup {
+  background-color: #76AE1D;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  max-width: 400px;
+  width: 80%;
+}
+
+
+
+/* Imagem inicio */
+	.inicio {
+	display: block;
+	float: right;
+	width: 500px;
+	margin-right: -10px;
+  margin-bottom: -10px;
+  border-top-left-radius: 60px;
+  border-bottom-left-radius: 60px;
+}
+
+/* texto inicio */
+
+	.left P {
+		margin-left: 40px;
+		font-size: 20px;
+		max-width: 500px;
+	}
+
+	.left h1 {
+		padding: 40px;
+		font-size:40px;
+	}
+	
+	.left h3 {
+		margin-left: 40px;
+		font-size:30px;
+	}
+
+	.footer {
+		font-size:15px;
+	}
+
+/* Botão acesso */
+
+    .btn-cadastrar {
+      background-color: #76AE1D; /* verde */
+      color: white;
+      padding: 12px 24px;
+      font-size: 16px;
+      border: none;
+      border-radius: 25px;
+	    width: 130px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+	    margin: 40px;
+    }
+
+    .btn-cadastrar:hover {
+      background-color: #507C20;
+      transform: scale(1.05);
+    }
+
+    .btn-cadastrar:active {
+      transform: scale(0.98);
+    }
+
+/* Pesquiosa */
+
+    .search-container {
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+      border-radius: 30px;
+      padding: 5px 20px;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .search-container input {
+      border: none;
+      outline: none;
+      flex: 1;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 30px;
+    }
+
+    .search-container button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 0 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .search-container img {
+      width: 20px;
+      height: 20px;
+      fill: #007BFF;
+      transition: fill 0.3s ease;
+    }
+
+
+	.search-container	img:hover {
+	  opacity: 0.5;
+	}
+	
+
+/* Style header */
+.header {
+  grid-area: header;
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* Logo */
+.logo {
+	display: block;
+	float: left;
+	width: 180px;
+	margin: auto;
+	
+}
+
+
+/* The grid container */
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+    'header header header header header header' 
+    'left left left right right right' 
+    'footer footer footer footer footer footer';
+  /* grid-column-gap: 10px; - if you want gap between the columns */
+} 
+
+.left,
+.right {
+  padding: 10px;
+  /*min-height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Style the left column */
+.left {
+  grid-area: left;
+}
+
+
+/* Style the right column */
+.right {
+  grid-area: right;
+}
+
+/* Style the footer */
+.footer {
+  grid-area: footer;
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .grid-container  {
+    grid-template-areas: 
+      'header header header header header header' 
+      'left left left left left left' 
+      'right right right right right right' 
+      'footer footer footer footer footer footer';
+  }
+}
+
+  /* Menu vertical */
+   /* Menu desktop */
+   .menu-desktop {
+    margin: 10px;
+    margin-right: 50px;
+    margin-left: 160px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+
+ 
+  .menu-desktop a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 18px 18px;
+    text-decoration: none;
+  }
+
+  .menu-desktop li a:hover {
+    text-decoration: underline;
+    /*background-color: white;*/
+  }
+
+  .menu-desktop li {
+    float: left;
+    list-style-type: none;
+  }
+  
+
+  /* Hamburger menu */
+  .menu-toggle {
+    position: absolute;
+    top: 45px;
+    right: 25px;
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+    z-index: 1001;
+    display: none; /* escondido no desktop */
+  }
+
+  .menu-toggle span {
+    display: block;
+    height: 4px;
+    background: #0a0a0a;
+    margin: 5px 0;
+    transition: 0.4s;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    right: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #3d3d3d;
+    color: white;
+    padding-top: 60px;
+    transition: 0.4s;
+    z-index: 1000;
+  }
+
+  .sidebar a {
+    display: block;
+    padding: 16px 30px;
+    margin-right: 40px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+  }
+
+  .sidebar a:hover {
+    /*background-color: #444;*/
+    text-decoration: underline;
+  }
+
+  .sidebar li {
+    list-style-type: none;
+  }
+  
+
+  #menu-checkbox {
+    display: none;
+  }
+
+  #menu-checkbox:checked ~ .sidebar {
+    right: 0;
+  }
+
+  /* Animação botão hamburger */
+  #menu-checkbox:checked + .menu-toggle span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  #menu-checkbox:checked + .menu-toggle span:nth-child(2) {
+    opacity: 0;
+  }
+
+  #menu-checkbox:checked + .menu-toggle span:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+  }
+
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .menu-desktop {
+      display: none;
+    }
+
+    .menu-toggle {
+      display: block;
+    }
+  }
+
+
+.left form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.left label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.left input,
+.left select,
+.left textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.result {
+  margin-top: 30px;
+  background-color: #e9ecef;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.alimentos-lista {
+  padding-left: 20px;
+}
+
+.left form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.left label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.left input,
+.left select,
+.left textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.result {
+  margin-top: 30px;
+  background-color: #e9ecef;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.alimentos-lista {
+  padding-left: 20px;
+}
