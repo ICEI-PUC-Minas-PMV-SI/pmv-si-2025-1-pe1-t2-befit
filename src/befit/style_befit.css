@@ -47,20 +47,20 @@ td.center {
 
 }
 
-/* texto inicio */
+/* texto inicio Home */
 
-	.left P {
+	.paghome P {
 		margin-left: 40px;
 		font-size: 20px;
 		max-width: 500px;
 	}
 
-	.left h1 {
+	.paghome h1 {
 		padding: 40px;
 		font-size:40px;
 	}
 	
-	.left h3 {
+	.paghome h3 {
 		margin-left: 40px;
 		font-size:30px;
 	}
@@ -68,6 +68,7 @@ td.center {
 	.footer {
 		font-size:15px;
 	}
+
 
 /* Botão acesso */
 
