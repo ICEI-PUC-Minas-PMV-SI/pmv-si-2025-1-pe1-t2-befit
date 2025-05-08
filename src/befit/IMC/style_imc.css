@@ -7,83 +7,93 @@
     font-family: Arial, Helvetica, sans-serif;
   }
   
-  /*IMC*/
+  /*IMC Tabela*/
 
-  .table-calc {
-    width: 100%;
-    max-width: 600px;
+    .style-tabela table{ 
+	max-width: 750px;
+	float:left;
+	border:1px solid #ccc; 
+	border-bottom:0; 
+	border-right:0; 
+	border-right:0; 
     margin-left: 40px;
-    font-size: 16px;
-  }
-  table {
-      background-color: transparent;
-  }
-  table {
-      border-collapse: collapse;
-      border-spacing: 0;
-  }
+	margin-bottom: 20px;	
+	}
+	.style-tabela table tr td  { 
+	padding:0.5em; 
+	border:1px solid #ccc; 
+	border-top:0; 
+	border-left:0;
+	}
+	.style-tabela table td.top { 
+	background-color:#76AE1D; 
+	color:#fff; 
+	font-size:16px;
+	}
+	.style-tabela tbody tr td    {
+	padding:0.3em; 
+	border:1px solid #ccc; 
+	border-top:0; 
+	border-left:0;
+	}
+	.style-tabela tbody tr       {
+	background-color:#fff; color:#666;
+	}
+	.style-tabela tbody tr.mensagemAlerta 
+	{ background-color:#fdeeef; 
+	color:#bf303c; }
 
-
-  /*tabela*/
-  
-  table {
-    border: 2px solid black;
-    border-collapse: collapse;
-    width: 100%;
-  }
-  
-  th, td {
-    border: 2px solid black;
-    padding: 8px;
-  }
-  
-  td.center {
-    text-align:center;
-  }
-  
-  /* pop-up */
-  .popup {
-    background-color: #76AE1D;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
-    text-align: center;
-    max-width: 400px;
-    width: 80%;
-  }
-  
-  
+ 
   
   /* Imagem inicio */
       .inicio {
       display: block;
       float: right;
-      width: 600px;
+      width: 465px;
       margin-right: -10px;
-      margin-bottom: -10px;
-  
   }
   
-  /* texto inicio */
+  /* texto page IMC */
   
-      .left P {
+        .inputs-calc {
+        display: flex;
+        align-items: center;
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 5px 15px;
+        max-width: 320px;
+        box-sizing: border-box;
+		margin: 15px;
+		font-size: 16px;
+      }
+  
+      .inputs-calc input {
+        border: none;
+        outline: none;
+        padding: 5px 15px;
+        font-size: 16px;
+        border-radius: 10px;
+		max-width: 50px;
+      }
+  
+      .pagIMC P {
           margin-left: 40px;
           font-size: 16px;
           max-width: 750px;
       }
   
-      .left h1 {
+      .pagIMC h1 {
           padding: 40px;
           font-size:40px;
       }
 
-      .left h2 {
+      .pagIMC h2 {
         padding: 5px;
         font-size:40px;
         margin-left: 40px;
     }
       
-      .left h3 {
+      .pagIMC h3 {
           margin-left: 40px;
           font-size:30px;
       }
@@ -103,6 +113,30 @@
         font-size:20px;
       }
   
+  
+  /* texto inicio Home */
+
+	.paghome P {
+		margin-left: 40px;
+		font-size: 20px;
+		max-width: 500px;
+	}
+
+	.paghome h1 {
+		padding: 40px;
+		font-size:40px;
+	}
+	
+	.paghome h3 {
+		margin-left: 40px;
+		font-size:30px;
+	}
+
+	.footer {
+		font-size:15px;
+	}
+	
+  
   /* Botão acesso */
   
       .btn-cadastrar {
@@ -112,10 +146,10 @@
         font-size: 16px;
         border: none;
         border-radius: 25px;
-          width: 130px;
+        width: 130px;
         cursor: pointer;
         transition: background-color 0.3s ease, transform 0.2s ease;
-          margin: 40px;
+        margin: 35px;
       }
   
       .btn-cadastrar:hover {
@@ -204,7 +238,7 @@
   .left,
   .right {
     padding: 10px;
-    /*min-height: 300px; /* Should be removed. Only for demonstration */
+    min-width: 300px; /* Should be removed. Only for demonstration */
   }
   
   /* Style the left column */
@@ -353,32 +387,6 @@
     }
   </style>
   </head>
-  <body>
-  
-  <!-- Checkbox controlador -->
-  <input type="checkbox" id="menu-checkbox" />
-  
-  <!-- Botão hamburger -->
-  <label class="menu-toggle" for="menu-checkbox">
-    <span></span>
-    <span></span>
-    <span></span>
-  </label>
-  
-  <!-- Menu lateral mobile -->
-  <nav class="sidebar">
-    <a href="#">Início</a>
-    <a href="#">Serviços</a>
-    <a href="#">Portfólio</a>
-    <a href="#">Contato</a>
-  </nav>
-  
-  <!-- Menu horizontal desktop -->
-  <nav class="menu-desktop">
-    <a href="#">Início</a>
-    <a href="#">Serviços</a>
-    <a href="#">Portfólio</a>
-    <a href="#">Contato</a>
-  </nav>
+ 
   
   

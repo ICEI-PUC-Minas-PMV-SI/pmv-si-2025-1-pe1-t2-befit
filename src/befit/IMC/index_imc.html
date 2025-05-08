@@ -68,18 +68,18 @@
 
 
 <section class="left">
+<div class="pagIMC">
 <h2>Cálculo de IMC</h2>
-<p>IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.</p>
-<p>O índice é calculado da seguinte maneira: divide-se o peso do paciente pela sua altura elevada ao quadrado. Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9.</p>
+<p>O IMC (Índice de Massa Corporal) é calculado da seguinte maneira: divide-se o peso do paciente pela sua altura elevada ao quadrado. Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9.</p>
 <p>Quer descobrir seu IMC? Insira seu peso e sua altura nos campos abaixo e compare com os índices da tabela. Importante: siga os exemplos e use pontos como separadores.</p>
 
 <div class="inputs-calc">
-	<span>Altura <small>(ex.: 1,70)</small></span>
+	<span><small>Altura (ex.: 1,70):</small></span>
 	<input type="text" placeholder="Metros" id="altura_input" maxlength="4">
 </div>
 
 <div class="inputs-calc">
-	<span>Peso <small>(ex.: 69,2)</small></span>
+	<span><small>Peso (ex.: 69,2):</small></span>
 	<input type="text" placeholder="Quilos" id="peso_input" maxlength="6">
 </div>
 
@@ -91,58 +91,66 @@
 	<strong></strong>
 </div>
 <br>
-<table class="table-calc" cellspacing="0">
 
-	<thead>
-		<tr>
-			<td colspan="3">Veja a interpretação do IMC</td>
-		</tr>
-	</thead>
+<div class="style-tabela">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+               
+    <thead>
+        <tr>
+           <td colspan="3" class="top center" align="center"><strong>Veja a interpretação do IMC</strong></td>
+        </tr>
+    </thead>
 
-	<tbody>						
-		<tr class="table-calc-blue">
-			<td>IMC</td>
-			<td>Classificação</td>
-			<td style="text-align: center">Obesidade <small>(grau)</small></td>
-		</tr>
-		
-		<tr id="result_calc_0">
-			<td>Menor que 18,5</td>
-			<td>Magreza</td>
-			<td style="text-align: center">0</td>
-		</tr>
-		
-		<tr id="result_calc_1">
-			<td>Entre 18,5 e 24,9</td>
-			<td>Normal</td>
-			<td style="text-align: center">0</td>
-		</tr>
-		
-		<tr id="result_calc_2">
-			<td>Entre 25,0 e 29,9</td>
-			<td>Sobrepeso</td>
-			<td style="text-align: center">I</td>
-		</tr>
-		
-		<tr id="result_calc_3">
-			<td>Entre 30,0 e 39,9</td>
-			<td>Obesidade</td>
-			<td style="text-align: center">II</td>
-		</tr>
+    <tbody>
 
-		<tr id="result_calc_4">
-			<td>Maior que 40,0</td>
-			<td>Obesidade Grave</td>
-			<td style="text-align: center">III</td>
-		</tr>
-	</tbody>
+        <tr> 
+            <td align="center">IMC</td>
+            <td align="center">Classificação</td>
+            <td align="center">Obesidade (grau)</td>   
+        </tr>
+
+        <tr> 
+            <td align="center">Menor que 18,5</td>
+            <td align="center">Magreza</td>
+            <td align="center">0</td>    
+        </tr>
+
+        <tr> 
+            <td align="center">Entre 18,5 e 24,9</td>
+            <td align="center">Normal</td>
+            <td align="center">0</td>     
+        </tr>
+
+        <tr> 
+            <td align="center">Entre 25,0 e 29,9</td>
+            <td align="center">Sobrepeso</td>
+            <td align="center">I</td>  
+        </tr>
+
+        <tr> 
+            <td align="center">Entre 30,0 e 39,9</td>
+            <td align="center">Obesidade</td>
+            <td align="center">II</td>
+        </tr>
+		
+		<tr class="mensagemAlerta"> 
+            <td align="center">Maior que 40,0</td>
+            <td align="center">Obesidade Grave</td>
+            <td align="center">III</td>
+        </tr>
+      
+    </tbody>
 
 </table>
+</div>
+
 </section>
 
 <section class="right">
-	<p class="img_01"><img src="../imgs/img_inicio.png" alt" " class="inicio";></p>
+	<p class="img_01"><img src="../imgs/balanca.jpg" alt" " class="inicio";></p>
+</div>
 </section>
+
 
 <footer class="footer">
   <p>Copyright 2025 - BeFit- Todos os direitos reservados</p>
