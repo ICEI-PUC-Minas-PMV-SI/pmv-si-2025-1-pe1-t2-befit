@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeFit - Agenda</title>
+
+    <link rel="stylesheet" href="./static/css/reset.css">
+    <link rel="stylesheet" href="./static/css/navbar.css">
+    <link rel="stylesheet" href="./static/css/buttons.css">
+    <link rel="stylesheet" href="./static/css/agenda.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img width="150px" src="./static/img/logo.png" alt="Logo BeFit">
+            </div>
+
+            <div class="nav-links" id="navLinks">
+                <a href="/home.html" class="active">Home</a>
+                <a href="#">Saude</a>
+                <a href="#">Bem Estar</a>
+                <a href="/dietas.html">Dietas</a>
+                <a href="/receitas.html">Receitas</a>
+                <a href="/agenda.html">Agenda</a>
+                <a href="#">IMC</a>
+            </div>
+
+            <div class="nav-actions">
+                <button class="icon-button">
+                    <img src="https://api.iconify.design/lucide:search.svg" alt="Search" class="icon">
+                </button>
+                <button class="icon-button">
+                    <img src="https://api.iconify.design/lucide:user.svg" alt="User" class="icon">
+                </button>
+                <button class="menu-button" id="menuButton">
+                    <img src="https://api.iconify.design/lucide:menu.svg" alt="Menu" class="icon">
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <div id="plannerPage">
+        <h1 class="page-title">PLANEJAR A SEMANA</h1>
+
+        <div class="calendar">
+            <div class="calendar-header">
+                <div>DOM</div>
+                <div>SEG</div>
+                <div>TER</div>
+                <div>QUA</div>
+                <div>QUI</div>
+                <div>SEX</div>
+                <div>SAB</div>
+            </div>
+            <div class="calendar-month" id="calendarMonth"></div>
+            <div class="calendar-body"></div>
+        </div>
+
+        <div class="planner-actions">
+            <a href="/compras.html" class="btn-primary">Lista de Compras</a>
+            <a href="/receitas.html" class="btn-primary">Adicionar mais Receitas</a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/js-md5@0.8.3/src/md5.min.js"></script>
+    <script src="./static/js/utils.js"></script>
+    <script src="./static/js/agenda.js"></script>
+</body>
+
+</html>
