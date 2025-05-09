@@ -1,0 +1,68 @@
+/* Recipe Cards */
+.recipe-list {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.recipe-card {
+    background: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    display: flex;
+}
+
+.recipe-image {
+    width: 128px;
+    height: 128px;
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recipe-content {
+    flex: 1;
+    padding: 1rem;
+    text-align: center;
+}
+
+.recipe-title {
+    background: #5D5FEF;
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.recipe-description {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+/* Star Rating */
+.star-rating {
+    color: #F79D31;
+    font-size: 24px;
+    margin-bottom: 0.5rem;
+}
+
+/* Action Buttons Container */
+.planner-actions,
+.shopping-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+@media print {
+    #recipe {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+}

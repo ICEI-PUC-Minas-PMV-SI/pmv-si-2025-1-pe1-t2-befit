@@ -1,0 +1,168 @@
+/* Navigation Buttons */
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+
+.nav-btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    background: #e2e2e2;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.nav-btn.active {
+    background: #507C20;
+    color: white;
+}
+
+/* Pages */
+.page {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.page.active {
+    display: block;
+    opacity: 1;
+}
+
+/* Recipe Cards */
+.recipe-list {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.recipe-card {
+    background: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    display: flex;
+}
+
+.recipe-image {
+    width: 128px;
+    height: 128px;
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recipe-content {
+    flex: 1;
+    padding: 1rem;
+    text-align: center;
+}
+
+.recipe-title {
+    background: #5D5FEF;
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    font-size: 15px;
+    display: inline-block;
+}
+
+/* Star Rating */
+.star-rating {
+    color: #F79D31;
+    font-size: 24px;
+    margin-bottom: 0.5rem;
+}
+
+
+
+/* Shopping List */
+.shopping-list {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.shopping-item {
+    background: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    display: flex;
+}
+
+.item-image {
+    width: 128px;
+    height: 128px;
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-content {
+    flex: 1;
+    padding: 1rem;
+    text-align: center;
+}
+
+.item-title {
+    background: #5D5FEF;
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    font-size: 15px;
+    display: inline-block;
+}
+
+/* Action Buttons Container */
+.planner-actions,
+.shopping-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .nav-links.active {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: white;
+        padding: 1rem;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .menu-button {
+        display: block;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 0.5rem;
+    }
+
+    .meal-options {
+        flex-direction: column;
+    }
+
+    .meal-option {
+        width: 100%;
+        justify-content: center;
+    }
+}

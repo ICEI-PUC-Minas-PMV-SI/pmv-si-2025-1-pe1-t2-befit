@@ -1,0 +1,55 @@
+/* Calendar */
+.calendar {
+    max-width: 600px;
+    margin: 2rem auto;
+    border: 1px solid #ddd;
+}
+
+.calendar-header {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    background: #e6f0ff;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.calendar-header div {
+    padding: 0.75rem;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.calendar-body {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.calendar-body div {
+    aspect-ratio: 1;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.calendar-body div:hover {
+    background: #f0f0f0;
+}
+
+/* Action Buttons Container */
+.planner-actions,
+.shopping-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+
+.recipe-title {
+    background: #5D5FEF;
+    color: white;
+    padding: 1px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 10px;
+    display: inline-block;
+}
