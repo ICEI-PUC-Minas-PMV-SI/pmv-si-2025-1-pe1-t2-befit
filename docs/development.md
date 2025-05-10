@@ -27,15 +27,15 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito | Responsável | Artefato Criado |
 |------|------------------------|------------|-----------------|
-|RF-001| Permitir cadastro de preferências alimentares (ex: vegetariano, low carb, sem glúten, etc.) | xxx | index.html |
-|RF-002| Oferecer opções de refeições organizadas por complexidade levando em conta o tempo e preparo. | xxx | index.html |
-|RF-003| Sugerir lista de compras automáticas com base no plano de refeições escolhido. | xxx | index.html |
-|RF-004| Fornecer informações nutricionais claras das refeições. | xxx | index.html |
-|RF-005| Disponibilizar ferramenta para monitoramento do peso por meio do cálculo de IMC. | Weder | index.html |
-|RF-006| Disponibilizar agenda semanal para organização das refeições descritos na dieta. | xxx | index.html |
-|RF-007| Fornecer um sistema de inventário de alimentos integrado com as refeições diárias. | xxx | index.html |
-|RF-008| Disponibilizar um relatório dos alimentos consumidos diário, semanal e mensal. | xxx | cadastro-noticia.html |
-|RF-009| Pagina incial para login e cadastro na plataroma. | Weder / Lucas | index_befit.html |
+|RF-001| Permitir cadastro de preferências alimentares (ex: vegetariano, low carb, sem glúten, etc.) | Larissa | index_cadastro.html |
+|RF-002| Oferecer opções de refeições organizadas por complexidade levando em conta o tempo e preparo. | Maira/Larissa | receitas.html |
+|RF-003| Sugerir lista de compras automáticas com base no plano de refeições escolhido. | Larissa | compras.html |
+|RF-004| Fornecer informações nutricionais claras das refeições. | Maira | receitas.html |
+|RF-005| Disponibilizar ferramenta para monitoramento do peso por meio do cálculo de IMC. | Weder | index_imc.html |
+|RF-006| Disponibilizar agenda semanal para organização das refeições descritos na dieta. | Larissa | agenda.html |
+|RF-007| Fornecer um sistema de inventário de alimentos integrado com as refeições diárias. | Larissa | receitas.html |
+|RF-008| Disponibilizar um relatório dos alimentos consumidos diário, semanal e mensal. | Marina | index.html |
+|RF-009| Pagina incial para login e cadastro na plataroma. | Weder / Lucas | index_befit.html / xxxxx |
 
 ## Descrição das estruturas:
 
