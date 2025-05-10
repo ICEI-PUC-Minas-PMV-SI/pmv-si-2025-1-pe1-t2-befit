@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UZ-Compatible" content="ie=edge">
 <link rel="stylesheet" href="style_imc.css">
+<script src="script_imc.js"></script>
 
 
 <title>BeFit</title>
@@ -73,24 +74,25 @@
 <p>O IMC (Índice de Massa Corporal) é calculado da seguinte maneira: divide-se o peso do paciente pela sua altura elevada ao quadrado. Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9.</p>
 <p>Quer descobrir seu IMC? Insira seu peso e sua altura nos campos abaixo e compare com os índices da tabela. Importante: siga os exemplos e use pontos como separadores.</p>
 
+<!-- calcular o IMC -->
 <div class="inputs-calc">
-	<span><small>Altura (ex.: 1,70):</small></span>
-	<input type="text" placeholder="Metros" id="altura_input" maxlength="4">
+	<span><small>Peso:</small></span> 
+		<input id="peso" type="number" placeholder="Digite seu peso ex.: 69,2" step="0.01"/>
 </div>
-
 <div class="inputs-calc">
-	<span><small>Peso (ex.: 69,2):</small></span>
-	<input type="text" placeholder="Quilos" id="peso_input" maxlength="6">
-</div>
+	<span><small>Altura:</small></span>
+		<input id="altura" type="number" placeholder="Digite sua altura ex.: 1,70" step="0.01"/>
+</div> 
 
-<button class="btn-cadastrar">Limpar</button>
-<button class="btn-cadastrar">Calcular</button>
-
-<div class="calc-result">
+<div>
+	<button class="btn-cadastrar" onclick="calcularIMC()">Calcular</button>
+	<button class="btn-cadastrar" onclick="limpa()">Limpar</button><br /><br />
+	<div class="calc-result">
 	<span>RESULTADO DO SEU IMC:</span>
 	<strong></strong>
+	</div>
+	<br /><br />
 </div>
-<br>
 
 <div class="style-tabela">
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
