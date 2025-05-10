@@ -27,8 +27,15 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito | Responsável | Artefato Criado |
 |------|------------------------|------------|-----------------|
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | João | index.html |
-|RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês | Ana Paula | cadastro-noticia.html |
+|RF-001| Permitir cadastro de preferências alimentares (ex: vegetariano, low carb, sem glúten, etc.) | xxx | index.html |
+|RF-002| Oferecer opções de refeições organizadas por complexidade levando em conta o tempo e preparo. | xxx | index.html |
+|RF-003| Sugerir lista de compras automáticas com base no plano de refeições escolhido. | xxx | index.html |
+|RF-004| Fornecer informações nutricionais claras das refeições. | xxx | index.html |
+|RF-005| Disponibilizar ferramenta para monitoramento do peso por meio do cálculo de IMC. | Weder | index.html |
+|RF-006| Disponibilizar agenda semanal para organização das refeições descritos na dieta. | xxx | index.html |
+|RF-007| Fornecer um sistema de inventário de alimentos integrado com as refeições diárias. | xxx | index.html |
+|RF-008| Disponibilizar um relatório dos alimentos consumidos diário, semanal e mensal. | xxx | cadastro-noticia.html |
+|RF-009| Pagina incial para login e cadastro na plataroma. | Weder / Lucas | index_befit.html |
 
 ## Descrição das estruturas:
 
