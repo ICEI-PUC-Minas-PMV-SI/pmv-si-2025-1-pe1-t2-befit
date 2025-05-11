@@ -34,8 +34,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-005    | Disponibilizar ferramenta para monitoramento do peso por meio do cálculo de IMC. | Weder | index_imc.html |
 |RF-006    | Disponibilizar agenda semanal para organização das refeições descritos na dieta. | Larissa | agenda.html |
 |RF-007    | Fornecer um sistema de inventário de alimentos integrado com as refeições diárias. | Larissa | receitas.html |
-|RF-008    | Disponibilizar um relatório dos alimentos consumidos diário, semanal e mensal. | Marina | index.html |
-|RF-009    | Pagina incial para login e cadastro na plataroma. | Weder / Lucas | index_befit.html / xxxxx |
+|RF-008    | Disponibilizar um relatório dos alimentos consumidos diário, semanal e mensal. | Marinna | relatorios.html |
+|RF-009    | Pagina incial para login e cadastro na plataroma. | Weder / Lucas | index_befit.html / home.html login.html resiter.html |
 
 ## Descrição das estruturas:
 
