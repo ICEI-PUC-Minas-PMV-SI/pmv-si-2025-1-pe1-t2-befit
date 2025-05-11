@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UZ-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="relatorios.css">
+
+  <title>BeFit</title>
+</head>
+
+<body>
+
+  <div class="grid-container">
+    <header class="header">
+
+      <img src="../imgs/Logo_Befit.png" alt"imagem tela incial" class="logo" ;>
+      <div class="menu-desktop">
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#Saúde">Saúde</a></li>
+          <li><a href="#Relatórios">Relatórios</a></li>
+          <li><a href="#Dietas">Dietas</a></li>
+          <li><a href="#Receitas">Receitas</a></li>
+          <li><a href="#Lista de compras">Lista de compras</a></li>
+          <li><a href="#IMC">IMC</a></li>
+          <li style="float:right">
+            <form class="search-container" action="#" method="get">
+              <input type="text" name="q" placeholder="Pesquisar...">
+              <button type="submit" title="Buscar">
+                <!-- Ícone de lupa em SVG -->
+                <img src="../imgs/lupa.svg" alt="lupa" />
+              </button>
+            </form>
+
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <!-- Checkbox controlador -->
+        <input type="checkbox" id="menu-checkbox">
+
+        <!-- Botão hamburger (lado direito) -->
+        <label class="menu-toggle" for="menu-checkbox">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <!-- Menu lateral (direita) -->
+        <nav class="sidebar">
+          <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Saúde">Saúde</a></li>
+            <li><a href="#Relatórios">Relatórios</a></li>
+            <li><a href="#Dietas">Dietas</a></li>
+            <li><a href="#Receitas">Receitas</a></li>
+            <li><a href="#Lista de compras">Lista de compras</a></li>
+            <li><a href="#IMC">IMC</a></li>
+          </ul>
+        </nav>
+      </div>
+
+    </header>
+
+    <section class="left">
+      <div class="paghome">
+        <h1>Chegou a hora de ser fitness!</h1>
+        <!-- Tela 1: Relatório -->
+        <div id="relatorio" class="section active">
+          <h1>RELATÓRIO</h1>
+          <h2>CONSUMO</h2>
+          <button onclick="irParaPeriodo('consumo')">GERAR RELATÓRIO</button>
+          <h2>IMC</h2>
+          <button onclick="irParaPeriodo('imc')">GERAR RELATÓRIO</button>
+        </div>
+
+        <!-- Tela 2: Período -->
+        <div id="periodo" class="section">
+          <h1>PERÍODO</h1>
+          <form id="form-periodo">
+            <label><input type="checkbox" name="periodo" value="Diário"> Diário</label>
+            <label><input type="checkbox" name="periodo" value="Semanal"> Semanal</label>
+            <label><input type="checkbox" name="periodo" value="Mensal"> Mensal</label>
+            <label><input type="checkbox" name="periodo" value="Anual"> Anual</label>
+          </form>
+          <button onclick="irParaFinal()">GERAR RELATÓRIO</button>
+        </div>
+
+        <!-- Tela 3: Final -->
+        <div id="final" class="section">
+          <h1>RELATÓRIO GERADO</h1>
+          <button class="button" onclick="salvarPDF()">SALVAR EM PDF</button>
+          <button class="button" onclick="window.print()">IMPRIMIR</button>
+
+          <div class="pdf-content" id="pdf-content">
+            <h2 id="titulo-relatorio"></h2>
+            <p id="resumo-relatorio"></p>
+          </div>
+        </div>
+
+        <!-- jsPDF para gerar PDF -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+        <script>
+          let tipoRelatorio = '';
+
+          function irParaPeriodo(tipo) {
+            tipoRelatorio = tipo;
+            mostrarTela('periodo');
+          }
+
+          function irParaFinal() {
+            const checkboxes = document.querySelectorAll('input[name="periodo"]:checked');
+            const periodos = Array.from(checkboxes).map(cb => cb.value);
+
+            if (periodos.length === 0) {
+              alert("Selecione ao menos um período.");
+              return;
+            }
+
+            document.getElementById("titulo-relatorio").innerText = `Relatório de ${tipoRelatorio.toUpperCase()}`;
+            document.getElementById("resumo-relatorio").innerText = `Períodos selecionados: ${periodos.join(', ')}`;
+            mostrarTela('final');
+          }
+
+          function mostrarTela(id) {
+            document.querySelectorAll('.section').forEach(div => div.classList.remove('active'));
+            document.getElementById(id).classList.add('active');
+          }
+
+          async function salvarPDF() {
+            const { jsPDF } = window.jspdf;
+            const doc = new jsPDF();
+
+            const titulo = document.getElementById("titulo-relatorio").innerText;
+            const resumo = document.getElementById("resumo-relatorio").innerText;
+
+            doc.setFontSize(18);
+            doc.text(titulo, 10, 20);
+            doc.setFontSize(12);
+            doc.text(resumo, 10, 30);
+
+            doc.save("relatorio.pdf");
+          }
+        </script>
+    </section>
+
+    <section class="right">
+      <p class="img_01"><img src="../imgs/relatorios.jpg" alt" " class=" inicio";></p>
+  </div>
+  </section>
+
+
+  <footer class="footer">
+    <p>Copyright 2025 - BeFit- Todos os direitos reservados</p>
+  </footer>
+  </div>
+
+</body>
+
+</html>
