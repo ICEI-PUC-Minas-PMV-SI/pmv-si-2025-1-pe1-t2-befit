@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Login | Governança Local </title>
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/logo/GL%20-%20PGN.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><img class="icons" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-Home.png" alt="Home" width="38px"></a></li>
+                <li><a href="mapa.html"><img class="icons" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/Icons/Icon-Pin.png" alt="Mapa" width="38px"></a></li>
+                <li><a href="html/praticas.html"><img class="icons" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/a320ac9e1d7e7b46f4d2bfcab7e85d8bcbc39349/src/src/Icons/ecologia.png" alt="Práticas" width="38px"></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-pg">
+        <aside class="pg-esquerda">
+            <img src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-governanca-local/main/src/assets/logo/GL%20-%20PGN.png" alt="Logo Governança Local">
+        </aside>
+        <article class="pg-direita">
+            <div class="card-login">
+                <h2>Entre Agora!</h2>
+                <form id="login-form" class="form">
+                    <div class="inputs">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="loginn" placeholder="Insira seu e-mail"  name="email">
+                    </div>
+                    <div class="inputs">
+                        <label for="senha">Senha</label>
+                        <input type="password" id="senhaLogin" placeholder="Insira sua senha">
+                    </div>
+                    <div class="botoes">
+                        <p> Não possui conta? <br> <span><button type="button" class="btn-cadastro" onclick="openmodal()"> Criar agora! </button></span> </p>
+                        <input type="button" class="entrar" value="Entrar" onclick="login()">
+                    </div>
+                </form>
+            </div>
+                    <div class="modal" id="modalcad">
+                        <div id="cadastro-box">
+                            <form id="cadastro">
+                                <div id="msgcadastro"></div>
+                                <h3 class="text-center text-info">Sinta-se à vontade por aqui! </h3>
+                                <div class="form-group">
+                                    <label for="nome" class="text-info">Nome completo: *</label>
+                                    <input type="text" id="txt_nome" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email" class="text-info">E-mail: *</label>
+                                    <input type="text" id="txt_email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="senha" class="text-info">Senha: *</label>
+                                    <input type="password" id="txt_senha" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="senha2" class="text-info">Confirmação de Senha: *</label>
+                                    <input type="password" id="txt_senha2" required>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" onclick="closemodal()">Cancelar</button>
+                                  <button type="button" id="btnSalvar" class="salvar" onclick="cadastrar()"> Cadastrar </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+        </article>
+    </main>
+
+    <script src="./js/login.js"></script>
+ <script>
+
+    function openmodal(){
+        const openmodal = document.getElementById('modalcad');
+        openmodal.style.display = "block";
+    }
+
+    function closemodal(){
+        const closemodal = document.getElementById('modalcad');
+        closemodal.style.display = "none";
+    }
+
+ </script>
+</body>
+
+</html>
