@@ -20,7 +20,7 @@
         <ul>
 		<li><a href="../index_befit.html">Befit</a></li>
 		<li><a href="../login_and_home/home.html">Home</a></li>
-		<li><a href="Relatorio/relatorios.html">Relatórios</a></li>
+		<li><a href="relatorios.html">Relatórios</a></li>
 		<li><a href="../Cadastrar_dieta/index_cadastro.html">Dietas</a></li>
 		<li><a href="../receitas/seleciona-dieta.html">Receitas</a></li>
 		<li><a href="../IMC/index_imc.html">IMC</a></li>
@@ -65,19 +65,19 @@
 
     <section class="left">
       <div class="paghome">
-        <h1>Chegou a hora de ser fitness!</h1>
+        <h2>Chegou a hora de ser fitness!</h2>
         <!-- Tela 1: Relatório -->
         <div id="relatorio" class="section active">
-          <h1>RELATÓRIO</h1>
-          <h2>CONSUMO</h2>
+          <h2>RELATÓRIO</h2>
+          <h3>CONSUMO</h3>
           <button onclick="irParaPeriodo('consumo')">GERAR RELATÓRIO</button>
-          <h2>IMC</h2>
+          <h3>IMC</h3>
           <button onclick="irParaPeriodo('imc')">GERAR RELATÓRIO</button>
         </div>
 
         <!-- Tela 2: Período -->
         <div id="periodo" class="section">
-          <h1>PERÍODO</h1>
+          <h3>PERÍODO</h3>
           <form id="form-periodo">
             <label><input type="checkbox" name="periodo" value="Diário"> Diário</label>
             <label><input type="checkbox" name="periodo" value="Semanal"> Semanal</label>
@@ -89,12 +89,12 @@
 
         <!-- Tela 3: Final -->
         <div id="final" class="section">
-          <h1>RELATÓRIO GERADO</h1>
+          <h3>RELATÓRIO GERADO</h3>
           <button class="button" onclick="salvarPDF()">SALVAR EM PDF</button>
           <button class="button" onclick="window.print()">IMPRIMIR</button>
 
           <div class="pdf-content" id="pdf-content">
-            <h2 id="titulo-relatorio"></h2>
+            <h3 id="titulo-relatorio"></h3>
             <p id="resumo-relatorio"></p>
           </div>
         </div>
