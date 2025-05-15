@@ -22,3 +22,43 @@
 #contentRolinho {
     display: none;
 }
+
+
+/*Tabela*/
+
+  
+   #tabelaReceitas {
+    max-width: 750px;
+    float: left;
+    border: 1px solid #ccc;
+    border-bottom: 0;
+    border-right: 0;
+    border-right: 0;
+    margin-left: 40px;
+    margin-bottom: 20px;
+  }
+
+  #tabelaReceitas tbody {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-top: 0;
+    border-left: 0;
+  }
+
+  #tabelaReceitas tbody{
+    background-color: #76AE1D;
+    color: #fff;
+    font-size: 16px;
+  }
+
+  #tabelaReceitas tbody{
+    padding: 0.3em;
+    border: 1px solid #ccc;
+    border-top: 0;
+    border-left: 0;
+  }
+
+  #tabelaReceitas {
+    background-color: #fff;
+    color: #666;
+  }
