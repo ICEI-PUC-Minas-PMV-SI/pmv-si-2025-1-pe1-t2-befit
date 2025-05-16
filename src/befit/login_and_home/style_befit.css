@@ -176,6 +176,35 @@ body {
 /* ===== CONTEÚDO PRINCIPAL ===== */
 
 
+/* Botão Fechar */
+
+
+    .fechar {
+      display: block;
+      float: right;
+      background-color: #F79D31; 
+      color: white;
+      font-size: 18px;
+      border: none;
+      border-radius: 5px;
+	    width: 30px;
+      height: 30px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+      padding-left: 9px;
+      padding-top: 5px;
+	    margin: auto;
+    }
+
+    .fechar:hover {
+      background-color: #f58804;
+      transform: scale(1.05);
+    }
+
+    .fechar:active {
+      transform: scale(0.98);
+    }
+
 /* Botão acesso */
 
     .btn-cadastrar {
