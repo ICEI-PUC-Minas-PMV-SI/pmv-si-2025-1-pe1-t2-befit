@@ -24,3 +24,5 @@
     if (imc < 39.9) return "Obesidade Grau 2";
     if (imc >= 40) return "Obesidade Grau 3";
 	}
+
+		
