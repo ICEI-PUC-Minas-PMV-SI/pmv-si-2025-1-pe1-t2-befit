@@ -40,6 +40,7 @@ function calcularIMC() {
 function limpa() {
 	document.getElementById("peso").value="";
 	document.getElementById("altura").value="";
+	document.querySelector("strong").innerHTML = "";
 	
 }
 
