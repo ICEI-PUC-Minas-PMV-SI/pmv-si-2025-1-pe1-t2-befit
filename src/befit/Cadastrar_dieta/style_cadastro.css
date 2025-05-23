@@ -2,10 +2,12 @@
 * {
   box-sizing: border-box;
 }
+
 a {
-   text-decoration: none;
-   color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
+
 :root {
   /* Cores principais */
   --color-laranja: #F79D31;
@@ -179,14 +181,16 @@ body {
 
 
 .container {
-  max-width: 700px;
+  max-width: 730px;
   margin: 30px;
   background: #fff;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-h2, h3 {
+
+h2,
+h3 {
   text-align: center;
 }
 
@@ -195,8 +199,9 @@ label {
   margin-top: 10px;
 }
 
-/*input,*/ 
-select, textarea {
+/*input,*/
+select,
+textarea {
   width: 100%;
   padding: 10px;
   margin-top: 5px;
@@ -234,45 +239,46 @@ button:hover {
 
 /* Imagem inicio */
 
-	.inicio {
-	display: block;
-	float: right;
-	width: 450px;
-	margin-right: -10px;
-    margin-bottom: -10px;
-    border-top-left-radius: 60px;
-    border-bottom-left-radius: 60px;
+.inicio {
+  display: block;
+  float: right;
+  width: 420px;
+  margin-right: -10px;
+  margin-bottom: -10px;
+  border-top-left-radius: 60px;
+  border-bottom-left-radius: 60px;
 }
 
 
 
 /* Botão acesso */
 
-    .btn-cadastrar {
-      background-color: #76AE1D; /* verde */
-      color: white;
-      padding: 12px 24px;
-      font-size: 16px;
-      border: none;
-      border-radius: 25px;
-	  width: 240px;
-      cursor: pointer;
-      transition: background-color 0.3s ease, transform 0.2s ease;
-	  margin: 35px;
-    }
+.btn-cadastrar {
+  background-color: #76AE1D;
+  /* verde */
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 25px;
+  width: 200px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin: 10px;
+}
 
-    .btn-cadastrar:hover {
-      background-color: #507C20;
-      transform: scale(1.05);
-    }
+.btn-cadastrar:hover {
+  background-color: #507C20;
+  transform: scale(1.05);
+}
 
-    .btn-cadastrar:active {
-      transform: scale(0.98);
-    }
-	
+.btn-cadastrar:active {
+  transform: scale(0.98);
+}
+
 
 section {
-  background-color:#F79D31;	
+  background-color: #F79D31;
 }
 
 
