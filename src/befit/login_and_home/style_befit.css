@@ -478,6 +478,32 @@ main h2 {
   text-align: center;
   padding: 10px;
 }
+.bnt-ctn {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-bg-light);
+}
+.bnt-text {
+  text-align: center;
+  font-weight: bold;
+  font-size: var(--font-size-button);
+}
+.botoes img {
+  width: 180px;
+  margin: auto;
+}
+.main-stl {
+  background-color: var(--color-laranja);
+}
+
+
+
+
+
+
+
+
+
 
 /* ===== RESPONSIVIDADE ===== */
 @media (max-width: 768px) {
