@@ -43,6 +43,10 @@ function criarCelulaColunaNome(cell, valor, modoPreparo) {
 
 function criarCelulaColunaFavorita(cell, valor) {
   const img = document.createElement("img");
+  img.onclick = function () {
+    clicarEstrela(this);
+    return false;
+  };
 
   if (valor === true) {
     img.src = "../imgs/estrela-true.png";
@@ -65,6 +69,18 @@ function abrirPopup(linkClicado) {
   document.getElementById("popupTitle").innerText = texto;
   document.getElementById("modoPreparo").innerText = modoPreparo;
   document.getElementById("popupReceitas").style.display = "flex";
+}
+
+function clicarEstrela(estrelaClicada){
+  const alt = estrelaClicada.alt;
+
+  if(alt == "true"){
+    estrelaClicada.src = "../imgs/estrela-false.png";
+    estrelaClicada.alt = "false";
+  }else{
+    estrelaClicada.src = "../imgs/estrela-true.png";
+    estrelaClicada.alt = "true";
+  }
 }
 
 function abrirPopupInfo() {

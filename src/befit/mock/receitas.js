@@ -3,7 +3,7 @@ const receitas = [
 		"nome": "Panqueca de banana",
 		"tempoPreparo": "20 minutos",
 		"complexidade": "Fácil",
-		"favorita": true,
+		"favorita": false,
 		"ingredientes": [
 			{
 				"nome": "banana",
@@ -131,7 +131,7 @@ const receitas = [
 		"nome": "Frango com aabobrinha",
 		"tempoPreparo": "55 minutos",
 		"complexidade": "Médio",
-		"favorita": true,
+		"favorita": false,
 		"ingredientes": [
 			{
 				"nome": "abobrinha",
