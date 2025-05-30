@@ -12,10 +12,10 @@ window.onload = function () {
 
         switch (nome) {
           case 'nome':
-            criarHtmlColunaNome(cell, valor, receita.modoPreparo);
+            criarCelulaColunaNome(cell, valor, receita.modoPreparo);
             break;
           case 'favorita':
-            criarHtmlColunaFavorita(cell, valor);
+            criarCelulaColunaFavorita(cell, valor);
             break;
           default:
             cell.textContent = valor;
@@ -29,7 +29,7 @@ window.onload = function () {
   });
 };
 
-function criarHtmlColunaNome(cell, valor, modoPreparo) {
+function criarCelulaColunaNome(cell, valor, modoPreparo) {
   const link = document.createElement("a");
   link.href = '#';
   link.textContent = valor;
@@ -41,7 +41,7 @@ function criarHtmlColunaNome(cell, valor, modoPreparo) {
   cell.appendChild(link);
 }
 
-function criarHtmlColunaFavorita(cell, valor) {
+function criarCelulaColunaFavorita(cell, valor) {
   const img = document.createElement("img");
 
   if (valor === true) {
