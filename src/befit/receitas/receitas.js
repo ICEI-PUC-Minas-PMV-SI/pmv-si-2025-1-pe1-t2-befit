@@ -7,35 +7,18 @@ window.onload = function () {
     console.log(receita)
 
     Object.entries(receita).forEach(([nome, valor]) => {
-      if (nome !== 'ingredientes' && nome !== 'modoPreparo') {
+      if (!['ingredientes', 'modoPreparo'].includes(nome)) {
         const cell = document.createElement('td');
-        if (nome === 'nome') {
-          const link = document.createElement("a");
-          link.href = '#';
-          link.textContent = valor;
-          link.setAttribute('modoPreparo', receita.modoPreparo)
-          link.onclick = function () {
-            abrirPopup(this);
-            return false;
-          };
-          cell.appendChild(link);
-        }
-        else if (nome === 'favorita') {
-          const img = document.createElement("img");
 
-          if (valor === true) {
-            img.src = "../imgs/estrela-true.png";
-            img.alt = "true";
-          } else {
-            img.src = "../imgs/estrela-false.png";
-            img.alt = "false";
-          }
-
-          img.width = 25;
-          cell.textContent = ""; // Limpa o texto
-          cell.appendChild(img);
-        } else {
-          cell.textContent = valor;
+        switch (nome) {
+          case 'nome':
+            criarHtmlColunaNome(cell, valor, receita.modoPreparo);
+            break;
+          case 'favorita':
+            criarHtmlColunaFavorita(cell, valor);
+            break;
+          default:
+            cell.textContent = valor;
         }
 
         row.appendChild(cell);
@@ -46,6 +29,35 @@ window.onload = function () {
   });
 };
 
+function criarHtmlColunaNome(cell, valor, modoPreparo) {
+  const link = document.createElement("a");
+  link.href = '#';
+  link.textContent = valor;
+  link.setAttribute('modoPreparo', modoPreparo)
+  link.onclick = function () {
+    abrirPopup(this);
+    return false;
+  };
+  cell.appendChild(link);
+}
+
+function criarHtmlColunaFavorita(cell, valor) {
+  const img = document.createElement("img");
+
+  if (valor === true) {
+    img.src = "../imgs/estrela-true.png";
+    img.alt = "true";
+  } else {
+    img.src = "../imgs/estrela-false.png";
+    img.alt = "false";
+  }
+
+  img.width = 25;
+  cell.textContent = ""; // Limpa o texto
+  cell.appendChild(img);
+
+}
+
 function abrirPopup(linkClicado) {
   const texto = linkClicado.textContent;
   const modoPreparo = linkClicado.getAttribute("modoPreparo");
@@ -54,6 +66,7 @@ function abrirPopup(linkClicado) {
   document.getElementById("modoPreparo").innerText = modoPreparo;
   document.getElementById("popupReceitas").style.display = "flex";
 }
+
 function abrirPopupInfo() {
   fecharPopup("popupReceitas")
   document.getElementById("popupAgenda").style.display = "flex";
