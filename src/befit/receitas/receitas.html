@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UZ-Compatible" content="ie=edge">
+    <script src="../mock/receitas.js"></script>
     <script src="receitas.js"></script>
     <link rel="stylesheet" href="../style_befit.css">
     <link rel="stylesheet" href="receitas.css">
@@ -70,39 +71,7 @@
             <div class="overlay" id="popupReceitas">
                 <div class="popup">
                     <h2 id="popupTitle"></h2>
-                    <p id="contentPanqueca">Para preparar essa receita, amasse a banana e misture-a em um recipiente com
-                        os
-                        ovos batidos. Em seguida, adicione a aveia e o cacau, misturando tudo com um garfo até obter uma
-                        massa homogênea. Despeje pequenas porções da massa em uma frigideira untada e antiaderente,
-                        tampe e
-                        vire as panquecas quando dourarem. Para finalizar, polvilhe coco ralado por cima das panquecas
-                        prontas, se desejar.</p>
-                    <p id="contentBerinjela">Para preparar essa receita, corte a berinjela ao meio no sentido do
-                        comprimento, retire parte da polpa deixando uma borda de 1 cm e pique a polpa em cubos. Refogue
-                        alho
-                        no azeite, adicione a carne moída, a polpa da berinjela, molho de tomate, cebolinha e sal,
-                        cozinhando até tudo ficar bem incorporado. Recheie as metades da berinjela com essa mistura,
-                        cubra
-                        com queijo mussarela ralado e azeitonas fatiadas, leve ao forno pré-aquecido a 180 °C, coberto
-                        com
-                        papel-alumínio, e asse por 30 minutos antes de servir.</p>
-                    <p id="contentPudim">Para preparar essa receita, misture o iogurte natural com a chia, o leite (que
-                        pode
-                        ser vegetal), o adoçante e, se desejar, adicione baunilha, coco ralado e canela. Leve a mistura
-                        à
-                        geladeira para que a chia hidrate completamente e, na hora de servir, pode complementar com
-                        frutas a
-                        gosto.</p>
-                    <p id="contentRolinho">Para preparar o rolinho de abobrinha com frango, corte as abobrinhas em
-                        fatias
-                        finas no sentido do comprimento, grelhe rapidamente em uma frigideira com azeite, polvilhe com
-                        sal e
-                        deixe esfriar. Misture o frango desfiado com azeitona, cheiro-verde, cenoura ralada, tomate
-                        picado,
-                        requeijão e sal para formar o recheio. Sobreponha três fatias de abobrinha, recheie e enrole
-                        como um
-                        rocambole; repita o processo com o restante dos ingredientes. Finalize decorando com folhas de
-                        manjericão e sirva.</p>
+                    <p id="modoPreparo"></p>
                     <button onclick="abrirPopupInfo()">Adicionar à agenda</button>
                     <button onclick="window.print()">Imprimir</button>
                     <button onclick="fecharPopup('popupReceitas')">Fechar</button>
@@ -129,8 +98,8 @@
                             <th>Favorita</th>
                         </tr>
                     </thead>
-                    <tbody>
-                        <tr>
+                    <tbody id="table-body">
+                        <!--tr>
                             <td><a href="#" type="panqueca" data-texto="Receita da panqueca de banana"
                                     onclick="abrirPopup(this); return false;">Panqueca de banana</a></td>
                             <td>20 minutos</td>
@@ -157,7 +126,7 @@
                             <td>55 minutos</td>
                             <td>Médio</td>
                             <td class="center">true</td>
-                        </tr>
+                        </tr-->
                     </tbody>
                 </table>
             </div>

@@ -1,4 +1,4 @@
-[
+const receitas = [
 	{
 		"nome": "Panqueca de banana",
 		"tempoPreparo": "20 minutos",
@@ -172,4 +172,4 @@
 		], 
 		"modoPreparo": "Para preparar o rolinho de abobrinha com frango, corte as abobrinhas em fatias finas no sentido do comprimento, grelhe rapidamente em uma frigideira com azeite, polvilhe com sal e deixe esfriar. Misture o frango desfiado com azeitona, cheiro-verde, cenoura ralada, tomate picado, requeijão e sal para formar o recheio. Sobreponha três fatias de abobrinha, recheie e enrole como um rocambole; repita o processo com o restante dos ingredientes. Finalize decorando com folhas de manjericão e sirva."
 	}
-]
+];
