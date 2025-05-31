@@ -1,36 +1,74 @@
 /* Fundo escurecido */
 .overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: none;
-    /* Inicia oculto */
-    justify-content: center;
-    align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  /* Inicia oculto */
+  justify-content: center;
+  align-items: center;
 }
 
 .popup button {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 /*tabela*/
 
-table {
-  border: 2px solid black;
+.style-tabela table {
+  max-width: 750px;
+  float: left;
+  border: 1px solid #ccc;
+  border-bottom: 0;
+  border-right: 0;
+  border-right: 0;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+.style-tabela table tr td {
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-top: 0;
+  border-left: 0;
+}
+
+.style-tabela table,
+th,
+td {
+  border: 1px solid #ccc;
   border-collapse: collapse;
-  width: 100%;
 }
 
-th, td {
-  border: 2px solid black;
-  padding: 8px;
+.style-tabela table thead tr {
+  border-color: #fff;
 }
 
-td.center {
-  text-align:center;
+.style-tabela table thead tr th {
+  background-color: #76AE1D;
+  color: #fff;
+  font-size: 16px;
+}
+
+.style-tabela tbody tr td {
+  padding: 0.3em;
+  border: 1px solid #ccc;
+  border-top: 0;
+  border-left: 0;
+}
+
+.style-tabela tbody tr {
+  background-color: #fff;
+  color: #666;
+}
+
+.style-tabela tbody tr.mensagemAlerta {
+  background-color: #fdeeef;
+  color: #bf303c;
 }
 
 /* pop-up */

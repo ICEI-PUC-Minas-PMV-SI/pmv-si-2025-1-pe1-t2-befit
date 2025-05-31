@@ -91,23 +91,36 @@
                 <div class="pagRec">
                     <h2>Receitas</h2>
                     <p>Receitas feitas sob medida para você!</p>
-                    <p>Com base nos seus protocolos alimentares, selecionamos receitas perfeitas para o seu paladar. Organize suas
+                    <p>Com base nos seus protocolos alimentares, selecionamos receitas perfeitas para o seu paladar.
+                        Organize suas
                         opções por complexidade e tempo de preparo, escolha suas favoritas e salve na agenda aquela
                         receita especial para cada refeição.</p>
                     <p>Planejar suas próximas delícias nunca foi tão fácil!</p>
-                    <table id="tabelaReceitas">
-                        <thead>
-                            <tr>
-                                <th>Receita</th>
-                                <th>Tempo de Preparo <img src="../imgs/ordenacao.png" alt="ordenacao"
-                                        onclick="ordenarTabela(1)" width="25" style="margin: 0 0 0 20px;" /></th>
-                                <th>Complexidade <img src="../imgs/ordenacao.png" alt="ordenacao"
-                                        onclick="ordenarTabela(2)" width="25" style="margin: 0 0 0 20px;" /></th>
-                                <th>Favorita</th>
-                            </tr>
-                        </thead>
-                        <tbody id="table-body"></tbody>
-                    </table>
+                    <div class="style-tabela">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <thead>
+                                <tr class="top center">
+                                    <th>Receita</th>
+                                    <th>
+                                        <div style="display: flex; align-items: center; justify-content: center;">
+                                            Tempo de Preparo
+                                            <img src="../imgs/ordenacao.png" alt="ordenacao" onclick="ordenarTabela(1)"
+                                                width="20" style="margin-left: 8px; cursor: pointer;" />
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <div style="display: flex; align-items: center; justify-content: center;">
+                                            Complexidade
+                                            <img src="../imgs/ordenacao.png" alt="ordenacao" onclick="ordenarTabela(2)"
+                                                width="20" style="margin-left: 8px; cursor: pointer;" />
+                                        </div>
+                                    </th>
+                                    <th>Favorita</th>
+                                </tr>
+                            </thead>
+                            <tbody id="table-body"></tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </section>
