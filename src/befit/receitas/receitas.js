@@ -1,18 +1,27 @@
-window.onload = function () {
-  const corpoTabela = document.getElementById('table-body');
+let receitasOrdenadas = [...receitas]; // Create a copy
+let ordemAtual = {};
 
-  receitas.forEach(receita => {
+window.onload = function () {
+  renderizarTabela();
+};
+
+function renderizarTabela() {
+  const corpoTabela = document.getElementById('table-body');
+  corpoTabela.innerHTML = ''; // Clear existing rows
+
+  receitasOrdenadas.forEach(receita => {
     const row = document.createElement('tr');
 
-    console.log(receita)
-
-    Object.entries(receita).forEach(([nome, valor]) => {
-      if (!['ingredientes', 'modoPreparo'].includes(nome)) {
+    Object.entries(receita).forEach(([chave, valor]) => {
+      if (!['ingredientes', 'modoPreparo', 'unidadePreparo'].includes(chave)) {
         const cell = document.createElement('td');
 
-        switch (nome) {
+        switch (chave) {
           case 'nome':
             criarCelulaColunaNome(cell, valor, receita.modoPreparo);
+            break;
+          case 'tempoPreparo':
+            cell.textContent = valor + " " + receita.unidadePreparo;
             break;
           case 'favorita':
             criarCelulaColunaFavorita(cell, valor);
@@ -27,7 +36,7 @@ window.onload = function () {
 
     corpoTabela.appendChild(row);
   });
-};
+}
 
 function criarCelulaColunaNome(cell, valor, modoPreparo) {
   const link = document.createElement("a");
@@ -71,13 +80,13 @@ function abrirPopup(linkClicado) {
   document.getElementById("popupReceitas").style.display = "flex";
 }
 
-function clicarEstrela(estrelaClicada){
+function clicarEstrela(estrelaClicada) {
   const alt = estrelaClicada.alt;
 
-  if(alt == "true"){
+  if (alt == "true") {
     estrelaClicada.src = "../imgs/estrela-false.png";
     estrelaClicada.alt = "false";
-  }else{
+  } else {
     estrelaClicada.src = "../imgs/estrela-true.png";
     estrelaClicada.alt = "true";
   }
@@ -91,6 +100,29 @@ function abrirPopupInfo() {
 
 function fecharPopup(idName) {
   document.getElementById(idName).style.display = "none";
+}
+
+function ordenarTabela(indiceColuna) {
+  const chaves = ['nome', 'tempoPreparo', 'complexidade', 'favorita'];
+  const chave = chaves[indiceColuna];
+
+  // Toggle order
+  ordemAtual[chave] = ordemAtual[chave] === 'asc' ? 'desc' : 'asc';
+
+  receitasOrdenadas.sort((a, b) => {
+    let valA = a[chave];
+    let valB = b[chave];
+
+    // Convert to lowercase for case-insensitive comparison if strings
+    if (typeof valA === 'string') valA = valA.toLowerCase();
+    if (typeof valB === 'string') valB = valB.toLowerCase();
+
+    if (valA < valB) return ordemAtual[chave] === 'asc' ? -1 : 1;
+    if (valA > valB) return ordemAtual[chave] === 'asc' ? 1 : -1;
+    return 0;
+  });
+
+  renderizarTabela();
 }
 
 

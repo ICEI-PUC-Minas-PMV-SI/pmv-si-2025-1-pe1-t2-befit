@@ -1,7 +1,8 @@
 const receitas = [
 	{
 		"nome": "Panqueca de banana",
-		"tempoPreparo": "20 minutos",
+		"tempoPreparo": 20,
+		"unidadePreparo": "minutos",
 		"complexidade": "Fácil",
 		"favorita": false,
 		"ingredientes": [
@@ -35,7 +36,8 @@ const receitas = [
 	},
 	{
 		"nome": "Berinjela recheada",
-		"tempoPreparo": "1 hora e 30 minutos",
+		"tempoPreparo": 90,
+		"unidadePreparo": "minutos",
 		"complexidade": "Fácil",
 		"favorita": false,
 		"ingredientes": [
@@ -84,7 +86,8 @@ const receitas = [
 	},
 	{
 		"nome": "Pudim de chia",
-		"tempoPreparo": "2 horas",
+		"tempoPreparo": 120,
+		"unidadePreparo": "minutos",
 		"complexidade": "Médio",
 		"favorita": false,
 		"ingredientes": [
@@ -129,7 +132,8 @@ const receitas = [
 	},
 	{
 		"nome": "Frango com aabobrinha",
-		"tempoPreparo": "55 minutos",
+		"tempoPreparo": 55,
+		"unidadePreparo": "minutos",
 		"complexidade": "Médio",
 		"favorita": false,
 		"ingredientes": [
