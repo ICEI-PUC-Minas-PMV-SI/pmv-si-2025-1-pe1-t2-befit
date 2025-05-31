@@ -11,44 +11,15 @@
     <link rel="stylesheet" href="receitas.css">
 
     <title>BeFit</title>
+</head>
 
-    <div class="header">
-        <a href="../login_and_home/home.html"><img src="../imgs/Logo_Befit.png" alt"imagem tela incial" class="logo"
-                ;></a>
-        <!--<img src="../imgs/Logo_Befit.png" alt"imagem tela incial" class="logo" ;>-->
-        <div class="menu-desktop">
-            <ul>
-                <li><a href="../login_and_home/home.html">Home</a></li>
-                <li><a href="../index_befit.html">Cadastro</a></li>
-                <li><a href="../Relatorio/relatorios.html">Relatórios</a></li>
-                <li><a href="../Cadastrar_dieta/index_cadastro.html">Dietas</a></li>
-                <li><a href="../receitas/seleciona-dieta.html">Receitas</a></li>
-                <li><a href="../Cadastrar_dieta/compras.html">Lista de Compras</a></li>
-                <li><a href="../IMC/index_imc.html">IMC</a></li>
-                <li style="float:right">
-                    <form class="search-container" action="#" method="get">
-                        <input type="text" name="q" placeholder="Pesquisar...">
-                        <button type="submit" title="Buscar">
-                            <!-- Ícone de lupa em SVG -->
-                            <img src="../imgs/lupa.svg" alt="lupa" />
-                        </button>
-                </li>
-            </ul>
-        </div>
-
-        <div>
-            <!-- Checkbox controlador -->
-            <input type="checkbox" id="menu-checkbox">
-
-            <!-- Botão hamburger (lado direito) -->
-            <label class="menu-toggle" for="menu-checkbox">
-                <span></span>
-                <span></span>
-                <span></span>
-            </label>
-
-            <!-- Menu lateral (direita) -->
-            <nav class="sidebar">
+<body>
+    <div class="grid-container">
+        <header class="header">
+            <!--<img src="../imgs/Logo_Befit.png" alt"imagem tela incial" class="logo";>-->
+            <a href="../login_and_home/home.html"><img src="../imgs/Logo_Befit.png" alt"imagem tela incial" class="logo"
+                    ;></a>
+            <div class="menu-desktop">
                 <ul>
                     <li><a href="../login_and_home/home.html">Home</a></li>
                     <li><a href="../index_befit.html">Cadastro</a></li>
@@ -57,16 +28,45 @@
                     <li><a href="../receitas/seleciona-dieta.html">Receitas</a></li>
                     <li><a href="../Cadastrar_dieta/compras.html">Lista de Compras</a></li>
                     <li><a href="../IMC/index_imc.html">IMC</a></li>
+                    <li style="float:right">
+                        <form class="search-container" action="#" method="get">
+                            <input type="text" name="q" placeholder="Pesquisar...">
+                            <button type="submit" title="Buscar">
+                                <!-- Ícone de lupa em SVG -->
+                                <img src="../imgs/lupa.svg" alt="lupa" />
+                            </button>
+                        </form>
+
+                    </li>
                 </ul>
-            </nav>
-        </div>
-    </div>
-</head>
+            </div>
 
-<body>
+            <div>
+                <!-- Checkbox controlador -->
+                <input type="checkbox" id="menu-checkbox">
 
+                <!-- Botão hamburger (lado direito) -->
+                <label class="menu-toggle" for="menu-checkbox">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
 
-    <div class="grid-container">
+                <!-- Menu lateral (direita) -->
+                <nav class="sidebar">
+                    <ul>
+                        <li><a href="../login_and_home/home.html">Home</a></li>
+                        <li><a href="../index_befit.html">Cadastro</a></li>
+                        <li><a href="../Relatorio/relatorios.html">Relatórios</a></li>
+                        <li><a href="../Cadastrar_dieta/index_cadastro.html">Dietas</a></li>
+                        <li><a href="../receitas/seleciona-dieta.html">Receitas</a></li>
+                        <li><a href="../Cadastrar_dieta/compras.html">Lista de Compras</a></li>
+                        <li><a href="../IMC/index_imc.html">IMC</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
         <section class="left">
             <div class="overlay" id="popupReceitas">
                 <div class="popup">
@@ -87,20 +87,28 @@
                 </div>
             </div>
 
-            <div class="left" style="background-color:#F79D31;">
-                <h1>Receitas</h1>
-                <p>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Iss</p>
-                <table id="tabelaReceitas">
-                    <thead>
-                        <tr>
-                            <th>Receita</th>
-                            <th>Tempo de Preparo <img src="../imgs/ordenacao.png" alt="ordenacao" onclick="ordenarTabela(1)" width="25" style="margin: 0 0 0 20px;"/></th>
-                            <th>Complexidade <img src="../imgs/ordenacao.png" alt="ordenacao" onclick="ordenarTabela(2)" width="25" style="margin: 0 0 0 20px;"/></th>
-                            <th>Favorita</th>
-                        </tr>
-                    </thead>
-                    <tbody id="table-body"></tbody>
-                </table>
+            <div class="left">
+                <div class="pagRec">
+                    <h2>Receitas</h2>
+                    <p>Receitas feitas sob medida para você!</p>
+                    <p>Com base nos seus protocolos alimentares, selecionamos receitas perfeitas para o seu paladar. Organize suas
+                        opções por complexidade e tempo de preparo, escolha suas favoritas e salve na agenda aquela
+                        receita especial para cada refeição.</p>
+                    <p>Planejar suas próximas delícias nunca foi tão fácil!</p>
+                    <table id="tabelaReceitas">
+                        <thead>
+                            <tr>
+                                <th>Receita</th>
+                                <th>Tempo de Preparo <img src="../imgs/ordenacao.png" alt="ordenacao"
+                                        onclick="ordenarTabela(1)" width="25" style="margin: 0 0 0 20px;" /></th>
+                                <th>Complexidade <img src="../imgs/ordenacao.png" alt="ordenacao"
+                                        onclick="ordenarTabela(2)" width="25" style="margin: 0 0 0 20px;" /></th>
+                                <th>Favorita</th>
+                            </tr>
+                        </thead>
+                        <tbody id="table-body"></tbody>
+                    </table>
+                </div>
             </div>
         </section>
 

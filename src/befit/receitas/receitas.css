@@ -16,13 +16,6 @@
     margin-top: 15px;
 }
 
-#contentPanqueca,
-#contentBerinjela,
-#contentPudim,
-#contentRolinho {
-    display: none;
-}
-
 /*tabela*/
 
 table {
@@ -49,4 +42,30 @@ td.center {
   text-align: center;
   max-width: 650px;
   width: 80%;
+}
+
+.pagRec h1 {
+  padding: 40px;
+  font-size: 40px;
+}
+
+.pagRec h2 {
+  padding: 5px;
+  font-size: 40px;
+  margin-left: 40px;
+}
+
+.pagRec h3 {
+  margin-left: 40px;
+  font-size: 30px;
+}
+
+.left p {
+  margin-left: 40px;
+  font-size: 20px;
+  max-width: 700px;
+}
+
+.footer p {
+  font-size: 15px;
 }
