@@ -11,6 +11,10 @@ body {
     min-height: 100vh;
 }
 
+main {
+    background-color: #F79D31;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;

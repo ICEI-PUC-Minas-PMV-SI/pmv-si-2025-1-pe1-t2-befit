@@ -207,10 +207,16 @@ function StartComponent(number) {
 function AdicionarAgenda(nomeReceita) {
     const db = new Database('db_agenda')
     const receita = receitas.find(r => r.nomeReceita === nomeReceita)
-    var number = (function ask() {
-        var n = prompt('Informe o dia de 1 a 30:');
-        return isNaN(n) || +n > 30 || +n < 1 ? ask() : n;
-    }());
+
+    const date = new Date();
+    const month = date.getMonth(); 
+    const year = date.getFullYear(); 
+    const daysInMonth = new Date(year, month + 1, 0).getDate(); 
+    const number = prompt(`Digite o dia do mês (1 a ${daysInMonth}) para adicionar a receita "${nomeReceita}" à agenda:`);
+    if (!number || isNaN(number) || number < 1 || number > daysInMonth) {
+        alert(`Número inválido. Por favor, insira um número entre 1 e ${daysInMonth}.`);
+        return;
+    }
 
     if (db.getById(number)) {
         alert('Agenda ja ta cadastrada nesse dia')
@@ -226,7 +232,7 @@ function AdicionarAgenda(nomeReceita) {
 
     const ok = confirm("Deseja ver a agenda?")
     if (ok) {
-        window.location.href = "/agenda.html"
+        window.location.href = "agenda.html"
     }
 }
 
@@ -248,7 +254,6 @@ function CardReceita(receita) {
 
 
 window.onload = function () {
-    const quantidade = getRamdomInt(receitas)
-    const randomReceitas = getRandomItems(receitas, quantidade)
+    const randomReceitas = getRandomItems(receitas, receitas.length)
     document.getElementsByClassName('recipe-list')[0].innerHTML = randomReceitas.map(CardReceita).join("")
 }
