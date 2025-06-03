@@ -1,4 +1,4 @@
-let receitasOrdenadas = [...receitas]; // Create a copy
+let receitasOrdenadas = [...receitas];
 let ordemAtual = {};
 
 window.onload = function () {
@@ -7,7 +7,7 @@ window.onload = function () {
 
 function renderizarTabela() {
   const corpoTabela = document.getElementById('table-body');
-  corpoTabela.innerHTML = ''; // Clear existing rows
+  corpoTabela.innerHTML = '';
 
   receitasOrdenadas.forEach(receita => {
     const row = document.createElement('tr');
@@ -66,7 +66,7 @@ function criarCelulaColunaFavorita(cell, valor) {
   }
 
   img.width = 25;
-  cell.textContent = ""; // Limpa o texto
+  cell.textContent = ""; 
   cell.appendChild(img);
 
 }
@@ -106,14 +106,12 @@ function ordenarTabela(indiceColuna) {
   const chaves = ['nome', 'tempoPreparo', 'complexidade', 'favorita'];
   const chave = chaves[indiceColuna];
 
-  // Toggle order
   ordemAtual[chave] = ordemAtual[chave] === 'asc' ? 'desc' : 'asc';
 
   receitasOrdenadas.sort((a, b) => {
     let valA = a[chave];
     let valB = b[chave];
 
-    // Convert to lowercase for case-insensitive comparison if strings
     if (typeof valA === 'string') valA = valA.toLowerCase();
     if (typeof valB === 'string') valB = valB.toLowerCase();
 
