@@ -448,6 +448,18 @@ main h2 {
   display: block;
   float: right;
   width: 30px;
+  margin-top: -5px;
+}
+
+.login_btn:hover {
+  opacity: 0.5;
+  transform: scale(1.05);
+}
+
+/* ===== BTN Login responsivo ===== */
+.login_btn_reps {
+  margin-right: -40px;
+  width: 30px;
   margin-top: 35px;
 }
 
