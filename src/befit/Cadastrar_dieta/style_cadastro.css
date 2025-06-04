@@ -414,6 +414,19 @@ main h2 {
   background: var(--color-verde-claro);
 }
 
+/* ===== BTN Login ===== */
+.login_btn {
+  display: block;
+  float: right;
+  width: 30px;
+  margin-top: 35px;
+}
+
+.login_btn:hover {
+  opacity: 0.5;
+  transform: scale(1.05);
+}
+
 /* ===== BARRA DE PESQUISA ===== */
 .search-container {
   display: flex;
