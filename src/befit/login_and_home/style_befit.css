@@ -282,7 +282,7 @@ main h2 {
 }
 
 .destaque {
-  color: var(--color-laranja);
+  color: var(--color-white);
 }
 
 /* ===== FORMULÁRIOS ===== */
@@ -356,11 +356,12 @@ main h2 {
 /* Home */
 .botoes {
   display: grid;
-  height: 150px;
   gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
 }
-
 .botoes button {
   background: var(--color-verde-escuro);
   color: var(--color-white);
@@ -370,6 +371,7 @@ main h2 {
   font-size: var(--font-size-button);
   cursor: pointer;
   transition: background 0.3s ease;
+  width: 120px;
 }
 
 .botoes button:hover {
@@ -479,11 +481,9 @@ main h2 {
 }
 
 .body-01 {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  font-family: Arial, sans-serif;
-  background-color: #fefefe;
+  min-height: 100vh;
 }
 
 .body-01 header {
@@ -495,6 +495,7 @@ main h2 {
 
 .body-01 main {
   flex: 1;
+  padding: 20px;
 }
 
 .body-01 footer {
@@ -503,10 +504,13 @@ main h2 {
   text-align: center;
   padding: 10px;
 }
+
 .bnt-ctn {
   display: flex;
   flex-direction: column;
   background-color: var(--color-bg-light);
+  border-radius: 5px;
+  padding: 20px;
 }
 .bnt-text {
   text-align: center;
@@ -514,8 +518,9 @@ main h2 {
   font-size: var(--font-size-button);
 }
 .botoes img {
-  width: 180px;
+  width: 240px;
   margin: auto;
+  margin-bottom: 10px;
 }
 .main-stl {
   background-color: var(--color-laranja);
