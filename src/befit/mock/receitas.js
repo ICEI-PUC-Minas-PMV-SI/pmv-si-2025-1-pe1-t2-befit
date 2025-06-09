@@ -131,7 +131,7 @@ const receitas = [
 		"modoPreparo": "Para preparar essa receita, misture o iogurte natural com a chia, o leite (que pode ser vegetal), o adoçante e, se desejar, adicione baunilha, coco ralado e canela. Leve a mistura à geladeira para que a chia hidrate completamente e, na hora de servir, pode complementar com frutas a gosto"
 	},
 	{
-		"nome": "Frango com aabobrinha",
+		"nome": "Frango com abobrinha",
 		"tempoPreparo": 55,
 		"unidadePreparo": "minutos",
 		"complexidade": "Médio",
