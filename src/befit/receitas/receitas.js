@@ -92,12 +92,6 @@ function clicarEstrela(estrelaClicada) {
   }
 }
 
-function abrirPopupInfo() {
-  fecharPopup("popupReceitas")
-  document.getElementById("popupAgenda").style.display = "flex";
-}
-
-
 function fecharPopup(idName) {
   document.getElementById(idName).style.display = "none";
 }
