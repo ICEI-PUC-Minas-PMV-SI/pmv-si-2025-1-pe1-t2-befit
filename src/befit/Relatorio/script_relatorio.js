@@ -80,12 +80,14 @@ function listarAgenda() {
     // Exibe no console (opcional)
     console.log(`--- Receita ${index + 1} ---`);
     console.log(item);
-
+	
+	const textoSemChaves = JSON.stringify(item, null, 2).replace(/[{}",]/g, ' ');
+	
     // Cria um elemento para exibir na página
     const receitaDiv = document.createElement('div');
     receitaDiv.innerHTML = `
-      <h3>Receita ${index + 1}</h3>
-      <pre>${JSON.stringify(item, null, 2)}</pre>
+      <h4>Receita ${index + 1}</h4>
+      <pre>${textoSemChaves}</pre>
       <hr/>
     `;
     container.appendChild(receitaDiv);
