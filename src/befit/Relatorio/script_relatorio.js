@@ -78,8 +78,8 @@ function listarAgenda() {
 
   dados.forEach((item, index) => {
     // Exibe no console (opcional)
-    console.log(`--- Receita ${index + 1} ---`);
-    console.log(item);
+    //console.log(`--- Receita ${index + 1} ---`);
+    //console.log(item);
 	
 	const textoSemChaves = JSON.stringify(item, null, 2).replace(/[{}",]/g, ' ');
 	
