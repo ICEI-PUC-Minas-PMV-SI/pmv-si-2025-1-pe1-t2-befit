@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UZ-Compatible" content="ie=edge">
+<link rel="stylesheet" href="relatorios.css">
+<script src="script_relatorio.js"></script>
+
+<title>BeFit</title>
+</head>
+
+<body>
+
+<div class="grid-container">
+  <header class="header">
+
+    <a href="../login_and_home/home.html"><img src="../imgs/Logo_Befit.png" alt="imagem tela inicial" class="logo"></a>
+
+    <div class="menu-desktop">
+      <ul>
+        <li><a href="../login_and_home/home.html">Home</a></li>
+        <li><a href="../index_befit.html">Cadastro</a></li>
+        <li><a href="../Relatorio/relatorios.html">Relatórios</a></li>
+        <li><a href="../Cadastrar_dieta/index_cadastro.html">Dietas</a></li>
+        <li><a href="../receitas/seleciona-dieta.html">Receitas</a></li>
+        <li><a href="../Cadastrar_dieta/compras.html">Lista de Compras</a></li>
+        <li><a href="../IMC/index_imc.html">IMC</a></li>
+      </ul>
+      <a href="../login_and_home/login.html"><img src="../imgs/login.svg" alt="imagem login btn" class="login_btn"></a>
+    </div>
+
+    <div>
+      <input type="checkbox" id="menu-checkbox">
+      <label class="menu-toggle" for="menu-checkbox">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="sidebar">
+        <a href="../login_and_home/login.html"><img src="../imgs/login.svg" alt="imagem login btn" class="login_btn_reps"></a>
+        <ul>
+          <li><a href="../login_and_home/home.html">Home</a></li>
+          <li><a href="../index_befit.html">Cadastro</a></li>
+          <li><a href="../Relatorio/relatorios.html">Relatórios</a></li>
+          <li><a href="../Cadastrar_dieta/index_cadastro.html">Dietas</a></li>
+          <li><a href="../receitas/seleciona-dieta.html">Receitas</a></li>
+          <li><a href="../Cadastrar_dieta/compras.html">Lista de Compras</a></li>
+          <li><a href="../IMC/index_imc.html">IMC</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="left">
+    <div class="paghome">
+      <h2>Chegou a hora de ser fitness!</h2>
+
+      <!-- Seção única de Relatório -->
+      <div id="relatorio" class="section active">
+        <h2>RELATÓRIO</h2>
+        <p>
+          Planejamento é essencial para o seu bem-estar!<br>
+          Com nosso suporte, você monitora sua rotina de alimentação e saúde, mantendo histórico de evolução e IMC tudo em um só lugar.
+        </p>
+        <h3>CONSUMO E IMC</h3>
+        <button onclick="mostrarRelatorio()">GERAR RELATÓRIO</button>
+      </div>
+
+      <!-- Tela Final com receitas e botões -->
+<div id="final" class="section" style="display:none;">
+    <h3>RELATÓRIO GERADO</h3>
+    <button class="button" onclick="window.print()">IMPRIMIR</button>
+    <button class="button" onclick="mostrarUltimoIMC()">Mostrar Último IMC</button>
+    <button class="button" onclick="listaAgenda()">Mostrar Receitas</button>
+
+    <!-- Container para as receitas -->
+    <div id="relatorio-receitas" class="receitas-container"></div>
+
+    <!-- Container para o IMC -->
+    <div class="pdf-content" id="pdf-content">
+        <p id="valor-imc"></p>
+    </div>
+    <!-- Container para Receitas -->
+    <div class="pdf-content" id="pdf-content">
+        <p id="valor-Receita"></p>
+    </div>
+</div>
+  </section>
+
+  <section class="right">
+    <p class="img_01"><img src="../imgs/relatorios.jpg" alt="" class="inicio"></p>
+  </section>
+
+  <footer class="footer">
+    <p>Copyright 2025 - BeFit - Todos os direitos reservados</p>
+  </footer>
+</div>
+
+</body>
+</html>
+
