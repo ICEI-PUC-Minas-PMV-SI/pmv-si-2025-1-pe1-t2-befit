@@ -27,6 +27,8 @@ A tela inicial apresenta um menu lateral com as principais seções do portal, e
 
 ![Exemplo de Wireframe](img/wireframe-example.png)
 
+![image](https://github.com/user-attachments/assets/d7099921-7c07-4154-a206-21ed22c99063)
+
  
 > **Links Úteis**:
 > - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
