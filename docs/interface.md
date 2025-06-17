@@ -7,7 +7,22 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ## User Flow
 
-![Exemplo de UserFlow](img/userflow.jpg)
+Tela de cadastro de usuário e login:
+
+![image](https://github.com/user-attachments/assets/05668f80-fc2c-4a64-b1ed-c2d36b6e9c08)
+
+Tela de xxx
+
+![image](https://github.com/user-attachments/assets/c5e82d99-a653-4d68-b2f0-84061daf36bf)
+
+Tela xx
+
+![image](https://github.com/user-attachments/assets/e0ee6669-7e44-4df1-9355-30e77dcf1767)
+
+Tela xx
+
+![image](https://github.com/user-attachments/assets/f9c00635-9408-4287-9f40-2390957462d3)
+
 
 Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
 
@@ -25,7 +40,6 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
 
 A tela inicial apresenta um menu lateral com as principais seções do portal, enquanto a navigation bar, ao topo, apresenta informações de envio de imagens ou navegação pela galeria de fotos. A área central apresenta a galeria de fotos na forma de uma grade. Nesta tela, são apresentados os seguintes requisitos
 
-![Exemplo de Wireframe](img/wireframe-example.png)
 
 ![image](https://github.com/user-attachments/assets/d7099921-7c07-4154-a206-21ed22c99063)
 
