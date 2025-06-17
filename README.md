@@ -16,8 +16,7 @@ alimentar e promovendo uma alimentação equilibrada e consciente.
 
 ## Integrantes
 
-* Julianna Bonaparte Lessa 
-*	Larissa Figueirêdo Belo
+* Larissa Figueirêdo Belo
 *	Lucas Vitor da Silva Teles
 *	Maira Francesca Campelo Reis
 *	Marinna Pereira Barcellos
