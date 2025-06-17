@@ -11,7 +11,9 @@ Tela de cadastro de usuário e login:
 
 ![image](https://github.com/user-attachments/assets/05668f80-fc2c-4a64-b1ed-c2d36b6e9c08)
 
-Tela de xxx
+UF02: Tela de cadastro da dieta alimentar
+
+Permitir cadastro do protocolo alimentar a ser seguido 
 
 ![image](https://github.com/user-attachments/assets/c5e82d99-a653-4d68-b2f0-84061daf36bf)
 
