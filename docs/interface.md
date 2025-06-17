@@ -14,18 +14,24 @@ Pagina incial para login e cadastro na plataroma.
 ![image](https://github.com/user-attachments/assets/05668f80-fc2c-4a64-b1ed-c2d36b6e9c08)
 
 UF02: Tela de cadastro da dieta alimentar
-
 Permitir cadastro do protocolo alimentar a ser seguido 
 
 ![image](https://github.com/user-attachments/assets/c5e82d99-a653-4d68-b2f0-84061daf36bf)
 
-Tela xx
+UF03 Tela de lista de compras:
+Após o cadastro, a lista de compras é exibida, direcionando-o a uma variedade de receitas armazenadas na agenda.
 
 ![image](https://github.com/user-attachments/assets/e0ee6669-7e44-4df1-9355-30e77dcf1767)
 
-Tela xx
+UF04 Tela de relatórios:
+Planejamento é essencial para o seu bem-estar! Com a página de relatórios, você monitora sua rotina de alimentação e saúde, organizando suas receitas e IMC em um lugar.
 
 ![image](https://github.com/user-attachments/assets/f9c00635-9408-4287-9f40-2390957462d3)
+
+UF05 Tela de cálculo de IMC:
+Nesta tela o usuário fará o cálculo do seu IMC, ou Índice de Massa Corporal, é uma medida utilizada para avaliar a relação entre o peso e a altura de uma pessoa e, assim, indicar se ela está no peso ideal, acima ou abaixo do peso. É uma ferramenta utilizada e recomendada pela Organização Mundial da Saúde para avaliar o estado nutricional e o risco de doenças relacionadas ao peso.
+
+![image](https://github.com/user-attachments/assets/b29eb8c9-773e-420f-872d-e4ac75f4bcfd)
 
 
 Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
