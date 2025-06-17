@@ -51,21 +51,27 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
 A tela inicial apresenta um menu lateral com as principais seções do portal, enquanto a navigation bar, ao topo, apresenta informações de envio de imagens ou navegação pela galeria de fotos. A área central apresenta a galeria de fotos na forma de uma grade. Nesta tela, são apresentados os seguintes requisitos
 
 Tela Incial do stie:
+
 ![image](https://github.com/user-attachments/assets/d7099921-7c07-4154-a206-21ed22c99063)
 
 Tela de login e cadastro:
+
 ![image](https://github.com/user-attachments/assets/c2778d49-ad99-4a82-8a65-ddace00f3be3)
 
 Tela de cadastro de dietas:
+
 ![image](https://github.com/user-attachments/assets/02d3e61e-c004-4c83-9940-fd9eab839b53)
 
 Tela de relatórios:
+
 ![image](https://github.com/user-attachments/assets/471f3e60-cf8e-43a9-a08f-3e33c4f4ae92)
 
 Tela de lista de compras:
+
 ![image](https://github.com/user-attachments/assets/99beedec-4e6e-4261-b954-9ce9fba2acf5)
 
 Tela de cálculo de IMC:
+
 ![image](https://github.com/user-attachments/assets/b9e21d29-68da-4440-a24d-8120d53d518d)
 
 
