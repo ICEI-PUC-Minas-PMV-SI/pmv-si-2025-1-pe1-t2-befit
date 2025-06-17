@@ -9,6 +9,8 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 Tela de cadastro de usuário e login:
 
+Pagina incial para login e cadastro na plataroma.
+
 ![image](https://github.com/user-attachments/assets/05668f80-fc2c-4a64-b1ed-c2d36b6e9c08)
 
 UF02: Tela de cadastro da dieta alimentar
