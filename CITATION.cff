@@ -8,22 +8,38 @@ message: >-
   Web da PUC Minas.
 type: software
 authors:
-  - given-names: Aluno 1
-    family-names: Nome Completo
-    email: aluno@pucminas.br
+  - given-names: Larissa 
+    family-names: Figueirêdo Belo
+    email: larissa.belo@pucminas.br
     affiliation: PUC Minas
-  - given-names: Hugo
+  - given-names: Lucas  
+    family-names: Vitor da Silva Teles
+    email: lteles@sga.pucminas.br
+    affiliation: PUC Minas
+  - given-names: Maira 
+    family-names: Francesca Campelo Reis 
+    email: maira.campelo@sga.pucminas.br
+    affiliation: PUC Minas
+  - given-names: Marinna 
+    family-names: Pereira Barcellos 
+    email: marinna.barcellos@sga.pucminas.br
+    affiliation: PUC Minas
+  - given-names: Weder 
+    family-names: Hovadich Gonçalves 
+    email: weder.goncalves@sga.pucminas.br
+    affiliation: PUC Minas
+  - given-names: Marco 
     name-particle: 'B '
-    family-names: de Paula
+    family-names: Rodrigo Costa
     name-suffix: Prof.
-    email: hugo@pucminas.br
+    email: marco.rodrigo@sga.pucminas.br
     affiliation: PUC Minas
-    orcid: 'https://orcid.org/0000-0002-6193-3205'
+    orcid: 
 repository-code: >-
   https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-1-pe1-t2-befit
 abstract: >-
-A proposta principal deste projeto é desenvolver uma aplicação web voltada para auxiliar na gestão alimentar de dietas, com o objetivo de proporcionar mais autonomia e praticidade ao usuário. A plataforma visa otimizar os resultados esperados com a dieta sem depender de acompanhamento constante de um profissional da área, tornando o processo mais eficiente e acessível. A solução pretende ser uma ferramenta completa que centraliza informações e funcionalidades essenciais para o controle da alimentação diária.
-Entre os objetivos específicos da aplicação estão o gerenciamento do estoque pessoal de alimentos, o cálculo preciso de macronutrientes (carboidratos, proteínas e gorduras) consumidos diariamente e a identificação de alimentos restritos de acordo com a dieta seguida. A aplicação também permitirá o controle da lista de compras para manter o estoque abastecido, o monitoramento do peso por meio do cálculo do IMC e a organização de uma agenda semanal de refeições. Além disso, o usuário poderá acessar receitas compatíveis com sua dieta, permitindo adaptações e variações alimentares sem comprometer o plano nutricional.
+A proposta principal deste projeto é desenvolver uma aplicação web voltada para auxiliar na gestão alimentar de dietas, com o objetivo de proporcionar mais autonomia e praticidade ao usuário. A solução pretende ser uma ferramenta completa que centraliza informações e funcionalidades essenciais para o controle da alimentação diária.
+Ela permitirá gerenciar o estoque de alimentos, identificar restrições alimentares, montar listas de compras, monitorar o peso por meio do IMC, organizar as refeições semanais e acessar receitas compatíveis com a dieta.
 keywords:
   - Desenvolvimento Web
   - HTML
