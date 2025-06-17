@@ -60,11 +60,11 @@ Tela de login e cadastro:
 
 Tela de cadastro de dietas:
 
-![image](https://github.com/user-attachments/assets/02d3e61e-c004-4c83-9940-fd9eab839b53)
+![image](https://github.com/user-attachments/assets/cbcedee8-31b5-478c-af03-d60cc94e7620)
 
 Tela de relatórios:
 
-![image](https://github.com/user-attachments/assets/471f3e60-cf8e-43a9-a08f-3e33c4f4ae92)
+![image](https://github.com/user-attachments/assets/81d0a2bb-9e6b-43de-82a0-d593a5273e73)
 
 Tela de lista de compras:
 
