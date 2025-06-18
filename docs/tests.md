@@ -190,7 +190,7 @@ Cenário 3: Você é um aposentado que fica a maior parte do meu tempo em casa, 
 | 2       | SIM             | 5                    | 31.42 segundos                          |
 | 3       | SIM             | 4                    | 36.21 segundos                          |
 |  |  |  |  |
-| **Média**     | 100%           | 4.3                | 30.05 segundos                           |
+| **Média**     | 86%           | 4.3                | 30.05 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
 
 
