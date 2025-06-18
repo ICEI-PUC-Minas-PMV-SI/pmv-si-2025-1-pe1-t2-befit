@@ -43,7 +43,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Caso de Teste** | **CT03 - Criar lista de compras**
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Escolha as recitas sugeridas com base no protocolo 2) Salve na agenda  3) clique no botão "lista de compras'
-**Requisitos associados** RF-003 	Sugerir lista de compras automáticas com base no plano de refeições escolhido.
+**Requisitos associados**  |RF-003 	Sugerir lista de compras automáticas com base no plano de refeições escolhido.
 **Resultado esperado** |Lista de compras gerada
 **Dados de entrada** |lista de compras
 **Resultado obtido** | Sucesso
