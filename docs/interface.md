@@ -7,9 +7,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ## User Flow
 
-Tela de cadastro de usuário e login:
-
-Pagina incial para login e cadastro na plataroma.
+UF01: Tela de cadastro de usuário e login
 
 ![image](https://github.com/user-attachments/assets/05668f80-fc2c-4a64-b1ed-c2d36b6e9c08)
 
@@ -18,17 +16,17 @@ Permitir cadastro do protocolo alimentar a ser seguido
 
 ![image](https://github.com/user-attachments/assets/c5e82d99-a653-4d68-b2f0-84061daf36bf)
 
-UF03 Tela de lista de compras:
+UF03: Tela de lista de compras:
 Após o cadastro, a lista de compras é exibida, direcionando-o a uma variedade de receitas armazenadas na agenda.
 
 ![image](https://github.com/user-attachments/assets/1db17ae4-a2bd-47f3-b6e5-2c8d3a88b843)
 
-UF04 Tela de relatórios:
+UF04: Tela de relatórios:
 Planejamento é essencial para o seu bem-estar! Com a página de relatórios, você monitora sua rotina de alimentação e saúde, organizando suas receitas e IMC em um lugar.
 
 ![image](https://github.com/user-attachments/assets/f9c00635-9408-4287-9f40-2390957462d3)
 
-UF05 Tela de cálculo de IMC:
+UF05: Tela de cálculo de IMC:
 Nesta tela o usuário fará o cálculo do seu IMC, ou Índice de Massa Corporal, é uma medida utilizada para avaliar a relação entre o peso e a altura de uma pessoa e, assim, indicar se ela está no peso ideal, acima ou abaixo do peso. É uma ferramenta utilizada e recomendada pela Organização Mundial da Saúde para avaliar o estado nutricional e o risco de doenças relacionadas ao peso.
 
 ![image](https://github.com/user-attachments/assets/b29eb8c9-773e-420f-872d-e4ac75f4bcfd)
