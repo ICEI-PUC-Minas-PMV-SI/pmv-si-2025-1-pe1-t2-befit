@@ -145,7 +145,7 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
 | 1             | Você está acima do peso e não tem muito tempo para organizar uma dieta, quer um site que ofereça receitas saudáveis, rápidos e práticas, para que possa melhorar sua saúde, perder peso de forma sustentável e se alimentar melhor sem gastar muito tempo planejando. |
-| 2             | Você é um atleta praticante de atividade física, quer um sistema de gestão de dieta que a ajude a planejar suas refeições, monitorar a ingestão de nutrientes e ajustar a alimentação conforme seu desempenho, para que ela possa atingir seus objetivos de performance e fazer o controle de meu IMC. |
+| 2             | Você é um atleta e praticante de atividade física, quer um sistema de gestão de dieta que a ajude a planejar suas refeições, para que ela possa atingir seus objetivos de performance e fazer o controle de meu IMC. |
 | 3             | Você é um aposentado que fica a maior parte do meu tempo em casa, preciso de algo que seja direto e leve em consideração minhas condições de saúde em minha dieta, como tenho meus afazeres quero algo que me ajude a organizar as minhas compras para as refeições.. |
 
 
@@ -167,7 +167,7 @@ Cenário 1: Você está acima do peso e não tem muito tempo para organizar uma 
 O site facilita muito minha rotina com planos de refeições rápidos e bem organizados. Consegui montar uma dieta personalizada em poucos minutos e já comecei a seguir com facilidade. A navegação é direta e economiza meu tempo.
 
 
-Cenário 2: Você é um atleta praticante de atividade física, quer um sistema de gestão de dieta que a ajude a planejar suas refeições, monitorar a ingestão de nutrientes e ajustar a alimentação conforme seu desempenho, para que ela possa atingir seus objetivos de performance e fazer o controle de meu IMC.
+Cenário 2: Você é um atleta e praticante de atividade física, quer um sistema de gestão de dieta que a ajude a planejar suas refeições, para que ela possa atingir seus objetivos de performance e fazer o controle de meu IMC.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
