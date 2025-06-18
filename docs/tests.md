@@ -48,13 +48,13 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** |lista de compras
 **Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT01 - Criar conta parte 1**
+**Caso de Teste** | **CT04 - Calculo IMC*
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em criar conta <br> 2) Preencha todos os campos do formulário <br> 3) Clique no botão "Continuar".
-**Requisitos associados** | RF-001
-**Resultado esperado** | Prosseguir para a parte 2 do cadastro
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
-**Resultado obtido** | Sucesso
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em calculo IMC> 2) Preencha todos os campos do formulário <br> 3) Clique no botão "Continuar".
+**Requisitos associados** | RF-005 	Disponibilizar ferramenta para monitoramento do peso por meio do cálculo de IMC.
+**Resultado esperado** | Calculo realizado 
+**Dados de entrada** | Inserção de dados: altura e peso 
+**Resultado obtido** | Calculo imc
 
 **Caso de Teste** | **CT01 - Criar conta parte 1**
  :--------------: | ------------
