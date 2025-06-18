@@ -21,7 +21,7 @@ Permitir cadastro do protocolo alimentar a ser seguido
 UF03 Tela de lista de compras:
 Após o cadastro, a lista de compras é exibida, direcionando-o a uma variedade de receitas armazenadas na agenda.
 
-![image](https://github.com/user-attachments/assets/e0ee6669-7e44-4df1-9355-30e77dcf1767)
+![image](https://github.com/user-attachments/assets/561db877-b833-46d8-b822-3281fcc26fa4)
 
 UF04 Tela de relatórios:
 Planejamento é essencial para o seu bem-estar! Com a página de relatórios, você monitora sua rotina de alimentação e saúde, organizando suas receitas e IMC em um lugar.
