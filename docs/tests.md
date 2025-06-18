@@ -85,19 +85,19 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |Requisito Associado | RF-001	Permitir cadastro da dieta e protocolo a ser seguido|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
-|*Caso de Teste*                                 |*CT03 - Criar conta parte 3*                                        |
+|*Caso de Teste*                                 |*CT03 - Criar lista de compras*                                        |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
+|Requisito Associado |RF-003 	Sugerir lista de compras automáticas com base no plano de refeições escolhido|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
-|*Caso de Teste*                                 |*CT04 - Criar conta parte 4*                                        |
+|*Caso de Teste*                                 |*CT04 - Calculo IMC*                                        |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
+|Requisito Associado | RF-005 	Disponibilizar ferramenta para monitoramento do peso por meio do cálculo de IMC|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
-|*Caso de Teste*                                 |*CT05 - Criar conta parte 5*                                        |
+|*Caso de Teste*                                 |*CT05 - Relatórios*                                        |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
+|Requisito Associado |  RF-008 	Disponibilizar relatório diário, semanal e mensal|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
 
