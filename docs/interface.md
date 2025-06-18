@@ -46,33 +46,37 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface e é fundamental sempre relacionar cada wireframe com o(s) requisito(s) que ele atende.
 
-### Exemplo
-
-A tela inicial apresenta um menu lateral com as principais seções do portal, enquanto a navigation bar, ao topo, apresenta informações de envio de imagens ou navegação pela galeria de fotos. A área central apresenta a galeria de fotos na forma de uma grade. Nesta tela, são apresentados os seguintes requisitos
 
 Tela Incial do stie:
+A tela inicial apresenta um menu lateral com as principais seções do portal, enquanto a navigation bar, ao topo, apresenta informações de envio de imagens ou navegação pela galeria de fotos. A área central apresenta a galeria de fotos na forma de uma grade. Nesta tela, são apresentados os seguintes requisitos
 
 ![image](https://github.com/user-attachments/assets/d7099921-7c07-4154-a206-21ed22c99063)
 
 Tela de login e cadastro:
+A tela de login é a interface que permite que um usuário se autentique em um sistema ou aplicativo, inserindo suas credenciais (como nome de usuário e senha). É o ponto de partida para acessar áreas restritas e recursos personalizados. 
 
 ![image](https://github.com/user-attachments/assets/c2778d49-ad99-4a82-8a65-ddace00f3be3)
 
 Tela de cadastro de dietas:
+A tela de cadastro de dietas é uma interface digital onde o usuário, podem registrar e gerenciar informações detalhadas sobre os planos alimentares. Essa tela  permite adicionar dados como nome do alimento, tipo de dieta (restritiva, equilibrada, etc.), alimentos permitidos e restritos, refeições e outras informações específicas. 
 
 ![image](https://github.com/user-attachments/assets/cbcedee8-31b5-478c-af03-d60cc94e7620)
 
 Tela de relatórios:
+A tela para gerar relatórios geralmente possui campos de entrada para definir critérios como período, filtros por tipo de dados e opções de agrupamento, além de botões para iniciar a geração do relatório e opções de formatação. Após a configuração, o relatório é exibido na tela, e pode ser baixado ou salvo em diferentes formatos.
 
 ![image](https://github.com/user-attachments/assets/81d0a2bb-9e6b-43de-82a0-d593a5273e73)
 
 Tela de lista de compras:
+A tela para gerar lista de compras facilita a organização e planejamento das compras, permitindo criar, editar e gerenciar listas de itens a serem adquiridos. Ela apresenta campos para inserir produtos, quantidades e categorias. 
 
 ![image](https://github.com/user-attachments/assets/99beedec-4e6e-4261-b954-9ce9fba2acf5)
 
 Tela de cálculo de IMC:
+A tela para o cálculo do Índice de Massa Corporal (IMC) permite um cálculo que relaciona o peso e a altura de uma pessoa para avaliar se ela está com peso adequado, abaixo do peso ou acima do peso. Ele é usado como uma ferramenta para identificar possíveis riscos à saúde associados ao peso corporal. 
 
 ![image](https://github.com/user-attachments/assets/b9e21d29-68da-4440-a24d-8120d53d518d)
+
 
 
  
