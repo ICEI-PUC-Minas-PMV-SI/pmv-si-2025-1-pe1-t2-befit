@@ -14,8 +14,8 @@ Este projeto tem como objetivo desenvolver uma aplicação web, para auxiliar pe
 ## Histórias de Usuários
 
 - Pedro, como alguém que está acima do peso e não tem muito tempo para organizar uma dieta, quer um site que ofereça planos de refeições saudáveis, rápidos e personalizados, para que possa melhorar sua saúde, perder peso de forma sustentável e se alimentar melhor sem gastar muito tempo planejando.
-- Lucina, como atleta e praticante de atividade física, quer um sistema de gestão de dieta que a ajude a planejar suas refeições, monitorar a ingestão de nutrientes e ajustar a alimentação conforme seu desempenho, para que ela possa atingir seus objetivos de performance e recuperação muscular.
-- Rodrigo, sou aposentado e fico maior parte do meu tempo em casa, preciso de algo que seja direto e leve em consideração minhas codições de saúde em minha dieta, como tenho meus afazeres quero algo que me avise os horarios e os alimentos de cada refeição
+- Lucina, como atleta e praticante de atividade física, quer um sistema de gestão de dieta que a ajude a planejar suas refeições, monitorar a ingestão de nutrientes e ajustar a alimentação conforme seu desempenho, para que ela possa atingir seus objetivos de performance e fazer o controle de meu IMC.
+- Rodrigo, sou aposentado e fico maior parte do meu tempo em casa, preciso de algo que seja direto e leve em consideração minhas codições de saúde em minha dieta, como tenho meus afazeres quero algo que me ajude a organizar as minhas compras para as refeições.
 - Luis Campos, passo boa parte do meu tempo em reuniões e trabalhando. Em diversos momentos, me perguntei onde está minha dieta, o que devo comer hoje, quantas gramas desse alimento devo colocar, busco algo onde eu possa centralizar estas informações e possa acessá-las de forma rápida.
 - Maria Cleuza, como diabética, constantemente me pergunto quais alimentos posso comer e em quais quantidades devo consumir, são tantos portais de notícias e tantos profissionais de saúde, cada um falando uma coisa diferente que não sei onde encontrar informações confiáveis.
 
