@@ -21,7 +21,7 @@ Permitir cadastro do protocolo alimentar a ser seguido
 UF03 Tela de lista de compras:
 Após o cadastro, a lista de compras é exibida, direcionando-o a uma variedade de receitas armazenadas na agenda.
 
-![image](https://github.com/user-attachments/assets/561db877-b833-46d8-b822-3281fcc26fa4)
+![image](https://github.com/user-attachments/assets/1db17ae4-a2bd-47f3-b6e5-2c8d3a88b843)
 
 UF04 Tela de relatórios:
 Planejamento é essencial para o seu bem-estar! Com a página de relatórios, você monitora sua rotina de alimentação e saúde, organizando suas receitas e IMC em um lugar.
@@ -70,7 +70,7 @@ A tela para gerar relatórios geralmente possui campos de entrada para definir c
 Tela de lista de compras:
 A tela para gerar lista de compras facilita a organização e planejamento das compras, permitindo criar, editar e gerenciar listas de itens a serem adquiridos. Ela apresenta campos para inserir produtos, quantidades e categorias. 
 
-![image](https://github.com/user-attachments/assets/99beedec-4e6e-4261-b954-9ce9fba2acf5)
+![image](https://github.com/user-attachments/assets/027141e9-ebb7-49c8-ba48-cb30764f1a99)
 
 Tela de cálculo de IMC:
 A tela para o cálculo do Índice de Massa Corporal (IMC) permite um cálculo que relaciona o peso e a altura de uma pessoa para avaliar se ela está com peso adequado, abaixo do peso ou acima do peso. Ele é usado como uma ferramenta para identificar possíveis riscos à saúde associados ao peso corporal. 
