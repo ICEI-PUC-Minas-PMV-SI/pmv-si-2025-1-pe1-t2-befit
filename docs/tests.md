@@ -47,6 +47,29 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
 
+**Caso de Teste** | **CT01 - Criar conta parte **
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em cadastrar <br> 2) Preencha todos os campos do formulário <br> 3) Clique no botão "cadastrar".
+**Requisitos associados** |RF-009 	Pagina incial para login e cadastro na plataroma.
+**Resultado esperado** | Prosseguir para pagina inicial
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT02 - Cadastro protocolo alimentar**
+ :--------------: | ------------
+**Procedimento**  | 1) Preencha todos os campos do formulário <br> 2) Clique no botão "adicionat alimento" <br> 
+**Requisitos associados** | RF-001	Permitir cadastro da dieta e protocolo a ser seguido
+**Resultado esperado** |alimento adicionado na dieta
+**Dados de entrada** | Inserção de dados na dieta
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT03 - Criar lista de compras**
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Escolha as recitas sugeridas com base no protocolo 2) Salve na agenda  3) clique no botão "lista de compras'
+**Requisitos associados** RF-003 	Sugerir lista de compras automáticas com base no plano de refeições escolhido.
+**Resultado esperado** |Lista de compras gerada
+**Dados de entrada** |
+**Resultado obtido** | Sucesso
 
 **Caso de Teste** | **CT01 - Criar conta parte 1**
  :--------------: | ------------
@@ -56,14 +79,13 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
 **Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT02 - Criar conta parte 2**
+**Caso de Teste** | **CT01 - Criar conta parte 1**
  :--------------: | ------------
-**Procedimento**  | 1) Preencha todos os campos do formulário <br> 2) Clique no botão "Criar conta" <br> 
+**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em criar conta <br> 2) Preencha todos os campos do formulário <br> 3) Clique no botão "Continuar".
 **Requisitos associados** | RF-001
-**Resultado esperado** | Usuário cadastrado
+**Resultado esperado** | Prosseguir para a parte 2 do cadastro
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
 **Resultado obtido** | Sucesso
-
 ## Registro dos Testes de Software
 
 Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
