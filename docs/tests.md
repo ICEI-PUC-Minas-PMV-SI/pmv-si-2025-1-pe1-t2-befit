@@ -51,7 +51,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Caso de Teste** | **CT04 - Calculo IMC**
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em calculo IMC> 2) Preencha todos os campos do formulário <br> 3) Clique no botão "Continuar".
-**Requisitos associados** | RF-005 	Disponibilizar ferramenta para monitoramento do peso por meio do cálculo de IMC.
+**Requisitos associados** | RF-003	Disponibilizar ferramenta para monitoramento do peso por meio do cálculo de IMC.
 **Resultado esperado** | Calculo realizado 
 **Dados de entrada** | Inserção de dados: altura e peso 
 **Resultado obtido** | Calculo imc
