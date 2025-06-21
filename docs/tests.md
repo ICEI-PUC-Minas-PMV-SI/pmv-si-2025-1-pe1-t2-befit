@@ -26,7 +26,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT01 - Criar conta **
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço [https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t2-befit/src/befit/login_and_home/register.html] <br> 2) Clique em cadastrar <br> 2) Preencha todos os campos do formulário <br> 3) Clique no botão "cadastrar".
+**Procedimento**  | 1) Acesse o endereço [https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t2-befit/src/befit/index_befit.html] <br> 2) Clique em cadastrar <br> 2) Preencha todos os campos do formulário <br> 3) Clique no botão "cadastrar".
 **Requisitos associados** |RF-005 pagina inicial para login e cadastro na plataforma
 **Resultado esperado** | Prosseguir para pagina inicial
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
@@ -34,7 +34,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT02 - Cadastro protocolo alimentar**
  :--------------: | ------------
-**Procedimento**  |  1) Acesse o endereço [https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t2-befit/src/befit/Cadastrar_dieta/index_cadastro.html] <br> 2) Preencha todos os campos do formulário <br> 2) Clique no botão "adicionat alimento" <br> 
+**Procedimento**  |  1) Acesse o endereço [https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t2-befit/src/befit/index_befit.html] <br> 2) Preencha todos os campos do formulário <br> 2) Clique no botão "adicionat alimento" <br> 
 **Requisitos associados** | RF-001	Permitir cadastro da dieta e restrições alimentares
 **Resultado esperado** |alimento adicionado na dieta
 **Dados de entrada** | Inserção de dados na dieta
@@ -42,7 +42,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT03 - Criar lista de compras**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Escolha as recitas sugeridas com base no protocolo 2) Salve na agenda  3) clique no botão "lista de compras'
+**Procedimento**  | 1) Acesse o endereço [https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t2-befit/src/befit/index_befit.html] <br> 2) Escolha as recitas sugeridas com base no protocolo 2) Salve na agenda  3) clique no botão "lista de compras'
 **Requisitos associados**  |RF-002 Sugerir lista de compras com base no plano de refeições escolhido
 **Resultado esperado** |Lista de compras gerada
 **Dados de entrada** |lista de compras
@@ -50,7 +50,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT04 - Calculo IMC**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em calculo IMC> 2) Preencha todos os campos do formulário <br> 3) Clique no botão "Continuar".
+**Procedimento**  | 1) Acesse o endereço [https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t2-befit/src/befit/index_befit.html] <br> 2) Clique em calculo IMC> 2) Preencha todos os campos do formulário <br> 3) Clique no botão "Continuar".
 **Requisitos associados** | RF-003	Disponibilizar ferramenta para monitoramento do peso por meio do cálculo de IMC.
 **Resultado esperado** | Calculo realizado 
 **Dados de entrada** | Inserção de dados: altura e peso 
@@ -58,7 +58,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT05 - Relatórios**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em Relatórios <br> 2)Selecione período <br> 3) Clique no botão "Gerar Relatório".
+**Procedimento**  | 1) Acesse o endereço [https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t2-befit/src/befit/index_befit.html] <br> 2) Clique em Relatórios <br> 2)Selecione período <br> 3) Clique no botão "Gerar Relatório".
 **Requisitos associados** |RF-004 Disponibilizar relatórios de IMC e receitas | Marina  | relatorios.html
 **Resultado esperado** | Relatórios gerados com sucesso
 **Dados de entrada** | periodos para gerar relatórios
