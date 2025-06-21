@@ -92,7 +92,7 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 
 |*Caso de Teste*                                 |*CT04 - Calculo IMC*                                        |
 |---|---|
-|Requisito Associado |  RF-005 	Disponibilizar ferramenta para monitoramento do peso por meio do cálculo de IMC|
+|Requisito Associado |  RF-003 	Disponibilizar ferramenta para monitoramento do peso por meio do cálculo de IMC|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
 |*Caso de Teste*                                 |*CT05 - Relatórios*                                        |
