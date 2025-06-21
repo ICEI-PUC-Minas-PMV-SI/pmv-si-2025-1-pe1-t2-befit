@@ -26,7 +26,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT01 - Criar conta **
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço [www.teste.com.br](https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t2-befit/src/befit/login_and_home/register.html) <br> 2) Clique em cadastrar <br> 2) Preencha todos os campos do formulário <br> 3) Clique no botão "cadastrar".
+**Procedimento**  | 1) Acesse o endereço [https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t2-befit/src/befit/login_and_home/register.html] <br> 2) Clique em cadastrar <br> 2) Preencha todos os campos do formulário <br> 3) Clique no botão "cadastrar".
 **Requisitos associados** |RF-005 pagina inicial para login e cadastro na plataforma
 **Resultado esperado** | Prosseguir para pagina inicial
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
