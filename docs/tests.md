@@ -34,7 +34,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT02 - Cadastro protocolo alimentar**
  :--------------: | ------------
-**Procedimento**  | 1) Preencha todos os campos do formulário <br> 2) Clique no botão "adicionat alimento" <br> 
+**Procedimento**  |  1) Acesse o endereço [https://icei-puc-minas-pmv-si.github.io/pmv-si-2025-1-pe1-t2-befit/src/befit/Cadastrar_dieta/index_cadastro.html] <br> 2) Preencha todos os campos do formulário <br> 2) Clique no botão "adicionat alimento" <br> 
 **Requisitos associados** | RF-001	Permitir cadastro da dieta e restrições alimentares
 **Resultado esperado** |alimento adicionado na dieta
 **Dados de entrada** | Inserção de dados na dieta
