@@ -77,22 +77,22 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 
 |*Caso de Teste*                                 | *CT01 - Criar conta *                                       |
 |---|---|
-|Requisito Associado |RF-009 	Pagina incial para login e cadastro na plataroma. |
+|Requisito Associado |RF-005 pagina inicial para login e cadastro na plataforma |
 |Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t| 
 
 |*Caso de Teste*                                 |*CT02 - Cadastro protocolo alimentar*                                        |
 |---|---|
-|Requisito Associado | RF-001	Permitir cadastro da dieta e protocolo a ser seguido|
+|Requisito Associado | RF-001	Permitir cadastro da dieta e restrições alimentares|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
 |*Caso de Teste*                                 |*CT03 - Criar lista de compras*                                        |
 |---|---|
-|Requisito Associado |RF-003 	Sugerir lista de compras automáticas com base no plano de refeições escolhido|
+|Requisito Associado | RF-002 Sugerir lista de compras com base no plano de refeições escolhido|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
 |*Caso de Teste*                                 |*CT04 - Calculo IMC*                                        |
 |---|---|
-|Requisito Associado | RF-005 	Disponibilizar ferramenta para monitoramento do peso por meio do cálculo de IMC|
+|Requisito Associado |  RF-005 	Disponibilizar ferramenta para monitoramento do peso por meio do cálculo de IMC|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
 |*Caso de Teste*                                 |*CT05 - Relatórios*                                        |
