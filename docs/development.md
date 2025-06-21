@@ -8,8 +8,7 @@ O professor Rommel Carneiro apresenta alguns exemplos prontos para serem utiliza
 - Login do sistema: [https://repl.it/@rommelpuc/LoginApp](https://repl.it/@rommelpuc/LoginApp) 
 - Cadastro de Contatos: [https://repl.it/@rommelpuc/Cadastro-de-Contatos](https://repl.it/@rommelpuc/Cadastro-de-Contatos)
 
-
-> **Links Úteis**:
+ **Links Úteis**:
 >
 > - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
 > - [JSON Tutorial](https://www.w3resource.com/JSON)
@@ -27,15 +26,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID        | Descrição do Requisito | Responsável | Artefato Criado |
 |----------|------------------------|------------|-----------------|
-|RF-001    | Permitir cadastro de preferências alimentares (ex: vegetariano, low carb, sem glúten, etc.) | Larissa | index_cadastro.html |
-|RF-002    | Oferecer opções de refeições organizadas por complexidade levando em conta o tempo e preparo. | Maira/Larissa | receitas.html |
-|RF-003    | Sugerir lista de compras automáticas com base no plano de refeições escolhido. | Larissa | compras.html |
-|RF-004    | Fornecer informações nutricionais claras das refeições. | Maira | receitas.html |
-|RF-005    | Disponibilizar ferramenta para monitoramento do peso por meio do cálculo de IMC. | Weder | index_imc.html |
-|RF-006    | Disponibilizar agenda semanal para organização das refeições descritos na dieta. | Larissa | agenda.html |
-|RF-007    | Fornecer um sistema de inventário de alimentos integrado com as refeições diárias. | Larissa | receitas.html |
-|RF-008    | Disponibilizar um relatório dos alimentos consumidos diário, semanal e mensal. | Marinna | relatorios.html |
-|RF-009    | Pagina incial para login e cadastro na plataroma. | Weder / Lucas | index_befit.html / home.html login.html resiter.html |
+|RF-001    | Permitir cadastro da dieta e restrições alimentares | Larissa | index_cadastro.html |
+|RF-002    | Sugerir lista de compras com base no plano de refeições escolhido | Maira |index_lista de compras.html |
+|RF-003    | Disponibilizar ferramenta para monitoramento do peso por meio do cálculo de imc | Weder | index_imc.html |
+|RF-004    | Disponibilizar relatórios de IMC e receitas | Marina  | relatorios.html |
+|RF-005    |pagina inicial para login e cadastro na plataforma | Lucas |  index_befit.html / home.html login.html resiter.html |
 
 ## Descrição das estruturas:
 
