@@ -27,7 +27,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Caso de Teste** | **CT01 - Criar conta **
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em cadastrar <br> 2) Preencha todos os campos do formulário <br> 3) Clique no botão "cadastrar".
-**Requisitos associados** |RF-009 	Pagina incial para login e cadastro na plataroma.
+**Requisitos associados** |RF-005 pagina inicial para login e cadastro na plataforma
 **Resultado esperado** | Prosseguir para pagina inicial
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
 **Resultado obtido** | Sucesso
@@ -35,7 +35,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Caso de Teste** | **CT02 - Cadastro protocolo alimentar**
  :--------------: | ------------
 **Procedimento**  | 1) Preencha todos os campos do formulário <br> 2) Clique no botão "adicionat alimento" <br> 
-**Requisitos associados** | RF-001	Permitir cadastro da dieta e protocolo a ser seguido
+**Requisitos associados** | RF-001	Permitir cadastro da dieta e restrições alimentares
 **Resultado esperado** |alimento adicionado na dieta
 **Dados de entrada** | Inserção de dados na dieta
 **Resultado obtido** | Sucesso
@@ -43,7 +43,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Caso de Teste** | **CT03 - Criar lista de compras**
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Escolha as recitas sugeridas com base no protocolo 2) Salve na agenda  3) clique no botão "lista de compras'
-**Requisitos associados**  |RF-003 	Sugerir lista de compras automáticas com base no plano de refeições escolhido.
+**Requisitos associados**  |RF-002 Sugerir lista de compras com base no plano de refeições escolhido
 **Resultado esperado** |Lista de compras gerada
 **Dados de entrada** |lista de compras
 **Resultado obtido** | Sucesso
@@ -59,7 +59,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Caso de Teste** | **CT05 - Relatórios**
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em Relatórios <br> 2)Selecione período <br> 3) Clique no botão "Gerar Relatório".
-**Requisitos associados** | RF-008 	Disponibilizar relatório diário, semanal e mensal.
+**Requisitos associados** |RF-004 Disponibilizar relatórios de IMC e receitas | Marina  | relatorios.html
 **Resultado esperado** | Relatórios gerados com sucesso
 **Dados de entrada** | periodos para gerar relatórios
 **Resultado obtido** | Sucesso
