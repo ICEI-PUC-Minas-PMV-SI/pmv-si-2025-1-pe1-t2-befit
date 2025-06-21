@@ -97,7 +97,7 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 
 |*Caso de Teste*                                 |*CT05 - Relatórios*                                        |
 |---|---|
-|Requisito Associado |  RF-008 	Disponibilizar relatório diário, semanal e mensal|
+|Requisito Associado |  RF-004 Disponibilizar relatórios de IMC e receitas|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
 
 
