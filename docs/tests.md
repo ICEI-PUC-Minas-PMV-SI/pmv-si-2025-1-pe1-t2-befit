@@ -78,7 +78,7 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 | *CT01 - Criar conta *                                       |
 |---|---|
 |Requisito Associado |RF-005 pagina inicial para login e cadastro na plataforma |
-|Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t| 
+|Link do vídeo do teste realizado: | https://www.youtube.com/watch?v=qnTeG3uV-bI | 
 
 |*Caso de Teste*                                 |*CT02 - Cadastro protocolo alimentar*                                        |
 |---|---|
@@ -156,12 +156,12 @@ Cenário 1: Você está acima do peso e não tem muito tempo para organizar uma 
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 27.87 segundos                  |
-| 2       | SIM             | 5                    | 17.11 segundos                  |
-| 3       | SIM             | 4                    | 39.09 segundos                  |
+| 1       | SIM             | 5                    | 1 m 57 s                 |
+| 2       | SIM             | 5                    | 2 m 20 s                  |
+| 3       | SIM             | 4                    | 2 m 5 s                  |
 |  |  |  |  |
-| **Média**     | 93%           | 4,6                | 28.02 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 8.66 segundos |
+| **Média**     | 93%           | 4,6                | 2 m 7 s                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 1 m 30 s |
 
 
 O site facilita muito minha rotina com planos de refeições rápidos e bem organizados. Consegui montar uma dieta personalizada em poucos minutos e já comecei a seguir com facilidade. A navegação é direta e economiza meu tempo.
@@ -171,12 +171,12 @@ Cenário 2: Você é um atleta e praticante de atividade física, quer um sistem
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 4                    | 31.42 segundos                          |
-| 3       | SIM             | 4                    | 36.21 segundos                          |
+| 1       | SIM             | 5                    | 2 m 5 s                          |
+| 2       | SIM             | 4                    | 2 m 10 s                         |
+| 3       | SIM             | 4                    | 2 m 30 s                         |
 |  |  |  |  |
-| **Média**     | 86%           | 4.3                | 30.05 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| **Média**     | 86%           | 4.3                | 2 m 15 s                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 1 m 37 s  |
 
 
 Gostei muito da forma como o sistema permite acompanhar meus nutrientes e ajustar minha alimentação conforme meus treinos. As ferramentas são precisas, e os gráficos de desempenho ajudam a visualizar meus avanços. Excelente para quem leva a dieta a sério.
@@ -186,12 +186,12 @@ Cenário 3: Você é um aposentado que fica a maior parte do meu tempo em casa, 
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 4                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 4                    | 36.21 segundos                          |
+| 1       | SIM             | 4                    |2 m 17 s                          |
+| 2       | SIM             | 5                    | 2 m 23 s                      |
+| 3       | SIM             | 4                    |2 m 39 s                         |
 |  |  |  |  |
-| **Média**     | 86%           | 4.3                | 30.05 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| **Média**     | 86%           | 4.3                | 2 m 26 s                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 1 m 40 s |
 
 
 O site é bem claro e fácil de usar. As recomendações respeitam minhas restrições de saúde e alimentares, e a função de organizar a lista de compras com base nas refeições foi muito útil para meu dia a dia. Me senti bem assistido.
